@@ -5,6 +5,7 @@
 
   function setOpen(open) {
     header.classList.toggle('is-open', open);
+    document.documentElement.classList.toggle('menu-open', open);
     toggle.setAttribute('aria-expanded', String(open));
     toggle.setAttribute('aria-label', open ? 'Menü schließen' : 'Menü öffnen');
   }

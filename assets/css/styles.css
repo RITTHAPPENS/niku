@@ -120,7 +120,7 @@ p { margin: 0; text-wrap: pretty; }
   .nav ul { flex-direction: column; gap: 0; }
   .nav li a:not(.btn) { display: block; padding: 16px 0; border-bottom: 1px solid var(--rule); background: none; font-size: 1.0625rem; }
   .nav .btn { margin-top: 22px; min-height: 54px; }
-  .site-header.is-open .nav { display: flex; }
+  .site-header.is-open .nav { display: flex; min-height: calc(100dvh - 69px); }
   .site-header.is-open .icon-open { display: none; }
   .site-header.is-open .icon-close { display: block; }
 }
@@ -355,3 +355,5 @@ img.focus-right { object-position: 76% 50%; }
   .footer-cols { grid-template-columns: 1fr; }
   .faq details p { padding-right: 0; }
 }
+
+html.menu-open { overflow: hidden; }
