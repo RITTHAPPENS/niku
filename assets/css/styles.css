@@ -58,6 +58,7 @@ p { margin: 0; text-wrap: pretty; }
 .wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gutter); }
 .section { padding-block: var(--section); }
 .section--tint { background: var(--bg-2); }
+.lead--spaced { margin-top: 16px; }
 .lead { font-size: 1.1875rem; color: var(--ink-2); max-width: 58ch; }
 .muted { color: var(--ink-2); }
 .section-head { max-width: 680px; margin-bottom: clamp(32px, 4vw, 48px); }
@@ -185,7 +186,7 @@ p { margin: 0; text-wrap: pretty; }
 .line-body { padding: 22px 0 4px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
 .line-body p { color: var(--ink-2); }
 .line-meta { font-size: 0.95rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
-.line-body .text-link { margin-top: auto; padding-top: 10px; color: var(--accent-ink); }
+.line-body .text-link { margin-top: 16px; color: var(--accent-ink); }
 .line-card--row { flex-direction: row; gap: 24px; }
 .line-card--row .line-media { flex: 0 0 42%; }
 .line-card--row .line-media.is-product { background: #fff; position: relative; min-height: 220px; }
@@ -279,4 +280,4 @@ p { margin: 0; text-wrap: pretty; }
 
 .site-footer .contact-line:hover { color: #fff; }
 
-.line-body .text-link { margin-top: 16px; }
+.section--flush-top { padding-top: 0; }

@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T15:14:50+00:00",
+  "title": "Design System: NiKu Chemie",
+  "extensions": {
+    "colorMeta": {
+      "anthrazit": {
+        "role": "neutral",
+        "displayName": "Anthrazit",
+        "canonical": "oklch(31.1% 0.006 236.7)",
+        "tonalRamp": [
+          "oklch(15% 0.006 236.7)",
+          "oklch(26% 0.006 236.7)",
+          "oklch(38% 0.006 236.7)",
+          "oklch(50% 0.006 236.7)",
+          "oklch(62% 0.006 236.7)",
+          "oklch(74% 0.006 236.7)",
+          "oklch(85% 0.006 236.7)",
+          "oklch(95% 0.006 236.7)"
+        ]
+      },
+      "schiefer": {
+        "role": "neutral",
+        "displayName": "Schiefer",
+        "canonical": "oklch(48.6% 0.009 241.8)",
+        "tonalRamp": [
+          "oklch(15% 0.009 241.8)",
+          "oklch(26% 0.009 241.8)",
+          "oklch(38% 0.009 241.8)",
+          "oklch(50% 0.009 241.8)",
+          "oklch(62% 0.009 241.8)",
+          "oklch(74% 0.009 241.8)",
+          "oklch(85% 0.009 241.8)",
+          "oklch(95% 0.009 241.8)"
+        ]
+      },
+      "linie": {
+        "role": "neutral",
+        "displayName": "Linie",
+        "canonical": "oklch(91.8% 0.003 247.9)",
+        "tonalRamp": [
+          "oklch(15% 0.003 247.9)",
+          "oklch(26% 0.003 247.9)",
+          "oklch(38% 0.003 247.9)",
+          "oklch(50% 0.003 247.9)",
+          "oklch(62% 0.003 247.9)",
+          "oklch(74% 0.003 247.9)",
+          "oklch(85% 0.003 247.9)",
+          "oklch(95% 0.003 247.9)"
+        ]
+      },
+      "weiss": {
+        "role": "neutral",
+        "displayName": "Weiß",
+        "canonical": "oklch(100% 0 0)",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(50% 0 0)",
+          "oklch(62% 0 0)",
+          "oklch(74% 0 0)",
+          "oklch(85% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "nebelgrau": {
+        "role": "neutral",
+        "displayName": "Nebelgrau",
+        "canonical": "oklch(96.7% 0.002 247.8)",
+        "tonalRamp": [
+          "oklch(15% 0.002 247.8)",
+          "oklch(26% 0.002 247.8)",
+          "oklch(38% 0.002 247.8)",
+          "oklch(50% 0.002 247.8)",
+          "oklch(62% 0.002 247.8)",
+          "oklch(74% 0.002 247.8)",
+          "oklch(85% 0.002 247.8)",
+          "oklch(95% 0.002 247.8)"
+        ]
+      },
+      "logo-orange": {
+        "role": "secondary",
+        "displayName": "Logo-Orange",
+        "canonical": "oklch(68.2% 0.168 40.5)",
+        "tonalRamp": [
+          "oklch(15% 0.168 40.5)",
+          "oklch(26% 0.168 40.5)",
+          "oklch(38% 0.168 40.5)",
+          "oklch(50% 0.168 40.5)",
+          "oklch(62% 0.168 40.5)",
+          "oklch(74% 0.168 40.5)",
+          "oklch(85% 0.168 40.5)",
+          "oklch(95% 0.168 40.5)"
+        ]
+      },
+      "rostorange": {
+        "role": "primary",
+        "displayName": "Rostorange",
+        "canonical": "oklch(55% 0.152 38.5)",
+        "tonalRamp": [
+          "oklch(15% 0.152 38.5)",
+          "oklch(26% 0.152 38.5)",
+          "oklch(38% 0.152 38.5)",
+          "oklch(50% 0.152 38.5)",
+          "oklch(62% 0.152 38.5)",
+          "oklch(74% 0.152 38.5)",
+          "oklch(85% 0.152 38.5)",
+          "oklch(95% 0.152 38.5)"
+        ]
+      },
+      "rostorange-tief": {
+        "role": "primary",
+        "displayName": "Rostorange tief",
+        "canonical": "oklch(48.1% 0.132 39)",
+        "tonalRamp": [
+          "oklch(15% 0.132 39)",
+          "oklch(26% 0.132 39)",
+          "oklch(38% 0.132 39)",
+          "oklch(50% 0.132 39)",
+          "oklch(62% 0.132 39)",
+          "oklch(74% 0.132 39)",
+          "oklch(85% 0.132 39)",
+          "oklch(95% 0.132 39)"
+        ]
+      },
+      "auf-dunkel-gedaempft": {
+        "role": "neutral",
+        "displayName": "Auf Dunkel gedämpft",
+        "canonical": "oklch(79.6% 0.006 239.8)",
+        "tonalRamp": [
+          "oklch(15% 0.006 239.8)",
+          "oklch(26% 0.006 239.8)",
+          "oklch(38% 0.006 239.8)",
+          "oklch(50% 0.006 239.8)",
+          "oklch(62% 0.006 239.8)",
+          "oklch(74% 0.006 239.8)",
+          "oklch(85% 0.006 239.8)",
+          "oklch(95% 0.006 239.8)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Nur die H1 im Hero."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sektionsüberschriften H2, auch im Footer."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "H3 für Schritte, Säulen und Produktlinien."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "Zahlen der Faktenzeile, tabellarische Ziffern."
+      },
+      "lead": {
+        "displayName": "Lead",
+        "purpose": "Subtext unter H1 und H2, max. 58ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Fließtext."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Buttons und Textlinks."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Beschriftungen, Gebindebezeichnungen, Produktanzahl."
+      }
+    },
+    "shadows": [
+      {
+        "name": "overlay",
+        "value": "0 1px 2px rgba(46, 49, 51, 0.06), 0 8px 24px -12px rgba(46, 49, 51, 0.18)",
+        "purpose": "Nur aufklappende Ebenen (Mobilmenü)."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Einzige Kurve für alle Übergänge."
+      },
+      {
+        "name": "state",
+        "value": "0.2s",
+        "purpose": "Farbwechsel an Buttons und Links, Pfeil-Versatz 3px."
+      },
+      {
+        "name": "press",
+        "value": "0.15s",
+        "purpose": "Button Active, 1px nach unten."
+      },
+      {
+        "name": "underline",
+        "value": "0.25s",
+        "purpose": "Navigationsunterstrich und FAQ-Icon-Drehung."
+      },
+      {
+        "name": "image-zoom",
+        "value": "0.6s",
+        "purpose": "Bildzoom auf 1.03 bei Hover von Säule und Produktlinie."
+      },
+      {
+        "name": "hero-settle",
+        "value": "1.4s",
+        "purpose": "Einmaliges Setzen des Heldenbilds (scale 1.06 auf 1, saturate 0.85 auf 1); entfällt bei reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "lines",
+        "value": "1080px"
+      },
+      {
+        "name": "nav",
+        "value": "960px"
+      },
+      {
+        "name": "stack",
+        "value": "860px"
+      },
+      {
+        "name": "phone",
+        "value": "600px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Hauptaktion Anfrage stellen, im Header, Hero, Ablauf.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Anfrage stellen <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;font-family:Archivo,system-ui,sans-serif;font-weight:600;font-size:1rem;line-height:1;letter-spacing:0.005em;border-radius:var(--radius,6px);border:1px solid transparent;text-decoration:none;cursor:pointer;transition:background-color .2s cubic-bezier(0.16,1,0.3,1),transform .15s cubic-bezier(0.16,1,0.3,1)} .ds-btn svg{transition:transform .2s cubic-bezier(0.16,1,0.3,1)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn:active{transform:translateY(1px)} .ds-btn:focus-visible{outline:2px solid #b84a24;outline-offset:3px} .ds-btn-primary{background:var(--accent-ink,#b84a24);color:#fff} .ds-btn-primary:hover{background:var(--accent-ink-hover,#993d1c);color:#fff}"
+    },
+    {
+      "name": "Light Button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Primäraktion auf dem dunklen Footer.",
+      "html": "<div class=\"ds-dark\"><a class=\"ds-btn ds-btn-light\" href=\"#\">Anfrage stellen <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a></div>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;font-family:Archivo,system-ui,sans-serif;font-weight:600;font-size:1rem;line-height:1;letter-spacing:0.005em;border-radius:var(--radius,6px);border:1px solid transparent;text-decoration:none;cursor:pointer;transition:background-color .2s cubic-bezier(0.16,1,0.3,1),transform .15s cubic-bezier(0.16,1,0.3,1)} .ds-btn svg{transition:transform .2s cubic-bezier(0.16,1,0.3,1)} .ds-btn:hover svg{transform:translateX(3px)} .ds-btn:active{transform:translateY(1px)} .ds-btn:focus-visible{outline:2px solid #b84a24;outline-offset:3px} .ds-dark{background:#2e3133;padding:32px} .ds-btn-light{background:#fff;color:#2e3133} .ds-btn-light:hover{background:#f3f4f5} .ds-dark .ds-btn:focus-visible{outline-color:#ec6e3e}"
+    },
+    {
+      "name": "Text Link",
+      "kind": "custom",
+      "refersTo": "text-link",
+      "description": "Sekundäraktion mit Pfeil, z. B. Produkte ansehen.",
+      "html": "<a class=\"ds-text-link\" href=\"#\">Produkte ansehen <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:8px;font-family:Archivo,system-ui,sans-serif;font-weight:600;color:#b84a24;text-decoration:none} .ds-text-link svg{transition:transform .2s cubic-bezier(0.16,1,0.3,1)} .ds-text-link:hover{color:#993d1c} .ds-text-link:hover svg{transform:translateX(3px)} .ds-text-link:focus-visible{outline:2px solid #b84a24;outline-offset:3px;border-radius:2px}"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "refersTo": "site-header",
+      "description": "Sticky Header 72px mit Wortmarke, fünf Links und Button.",
+      "html": "<header class=\"ds-header\"><strong class=\"ds-logo\">NIKU <small>CHEMIE</small></strong><nav class=\"ds-nav\"><a href=\"#\">Private Label</a><a href=\"#\">Lohnabfüllung</a><a href=\"#\">Produkte</a><a href=\"#\">Über uns</a><a href=\"#\">Karriere</a><a class=\"ds-nav-btn\" href=\"#\">Anfrage stellen</a></nav></header>",
+      "css": ".ds-header{display:flex;align-items:center;justify-content:space-between;gap:24px;height:72px;padding:0 32px;background:rgba(255,255,255,.88);backdrop-filter:saturate(160%) blur(10px);border-bottom:1px solid #e2e4e6;font-family:Archivo,system-ui,sans-serif;} .ds-logo{color:#2e3133;font-weight:700;font-size:1.4rem;line-height:1} .ds-logo small{display:block;font-size:.6rem;letter-spacing:.2em} .ds-nav{display:flex;align-items:center;gap:28px} .ds-nav a{color:#2e3133;text-decoration:none;font-weight:500;font-size:.975rem;padding-block:8px;background:linear-gradient(#ec6e3e,#ec6e3e) no-repeat 0 100%/0 2px;transition:background-size .25s cubic-bezier(0.16,1,0.3,1)} .ds-nav a:hover{background-size:100% 2px} .ds-nav a:focus-visible{outline:2px solid #b84a24;outline-offset:3px} .ds-nav .ds-nav-btn{margin-left:4px;display:inline-flex;align-items:center;min-height:42px;padding:0 18px;background:#b84a24;color:#fff;border-radius:6px;font-weight:600;font-size:.95rem} .ds-nav .ds-nav-btn:hover{background:#993d1c;background-size:auto}"
+    },
+    {
+      "name": "Faktenzeile",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Vier bestätigte Zahlen zwischen Haarlinien direkt unter dem Hero.",
+      "html": "<ul class=\"ds-facts\"><li><strong>Seit 2019</strong><span>Hersteller in Veitsbronn</span></li><li><strong>100+</strong><span>lieferbare Formulierungen</span></li><li><strong>250+</strong><span>zufriedene Kunden</span></li><li><strong>10.000+</strong><span>Liter Produktion pro Tag</span></li></ul>",
+      "css": ".ds-facts{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid #e2e4e6;font-family:Archivo,system-ui,sans-serif;color:#2e3133} .ds-facts li{padding:22px 24px 0 0} .ds-facts li+li{padding-left:24px;border-left:1px solid #e2e4e6} .ds-facts strong{display:block;font-size:2rem;font-weight:700;letter-spacing:-0.02em;line-height:1.1;font-variant-numeric:tabular-nums} .ds-facts span{display:block;margin-top:6px;color:#5b6064;font-size:.95rem}"
+    },
+    {
+      "name": "Schrittlinie",
+      "kind": "custom",
+      "refersTo": "step-marker",
+      "description": "Signatur: verbundene Drei-Schritt-Linie mit Kreisen in Logo-Orange.",
+      "html": "<ol class=\"ds-steps\"><li><h3>Anfrage</h3><p>Produkt, Menge und Wünsche nennen.</p></li><li><h3>Angebot und Muster</h3><p>Angebot und kostenlose Muster.</p></li><li><h3>Herstellung und Lieferung</h3><p>Lieferung nach 6 bis 8 Wochen.</p></li></ol>",
+      "css": ".ds-steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:40px;counter-reset:s;position:relative;font-family:Archivo,system-ui,sans-serif;color:#2e3133} .ds-steps::before{content:'';position:absolute;top:23px;left:24px;right:calc(33.333% - 24px);height:2px;background:#ec6e3e} .ds-steps li{position:relative;counter-increment:s} .ds-steps li::before{content:counter(s);position:relative;z-index:1;display:grid;place-items:center;width:48px;height:48px;border-radius:50%;background:#fff;border:2px solid #ec6e3e;font-weight:700;font-variant-numeric:tabular-nums} .ds-steps h3{margin:22px 0 0;font-size:1.25rem;font-weight:600;letter-spacing:-0.01em} .ds-steps p{margin:8px 0 0;color:#5b6064}"
+    },
+    {
+      "name": "Gebinde-Raster",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Zweispaltige Definitionsliste mit Haarlinien für Gebinde und Mengen.",
+      "html": "<dl class=\"ds-sizes\"><div><dt>Flaschen und Sprüher</dt><dd>10 ml bis 1 l</dd></div><div><dt>Kanister</dt><dd>5 l bis 25 l</dd></div><div><dt>Fass</dt><dd>200 l</dd></div><div><dt>IBC-Container</dt><dd>1.000 l</dd></div></dl>",
+      "css": ".ds-sizes{display:grid;grid-template-columns:1fr 1fr;margin:0;border-top:1px solid #e2e4e6;font-family:Archivo,system-ui,sans-serif;color:#2e3133} .ds-sizes div{padding:18px 16px 18px 0;border-bottom:1px solid #e2e4e6} .ds-sizes div:nth-child(even){padding-left:20px;border-left:1px solid #e2e4e6} .ds-sizes dt{font-size:.95rem;color:#5b6064} .ds-sizes dd{margin:4px 0 0;font-size:1.25rem;font-weight:600;letter-spacing:-0.01em;font-variant-numeric:tabular-nums}"
+    },
+    {
+      "name": "Produktlinie mit Oberkante",
+      "kind": "card",
+      "refersTo": "",
+      "description": "Linkfläche ohne Rahmen, geführt von einer 2px-Oberkante, die bei Hover orange wird.",
+      "html": "<a class=\"ds-line\" href=\"#\"><div class=\"ds-line-media\"></div><h3>Industriereiniger</h3><p>Werkstattbodenreiniger, Glasreiniger-Konzentrat und Multireiniger.</p><span class=\"ds-line-meta\">4 Produkte, vom 10-l-Kanister bis zum 1.000-l-IBC</span><span class=\"ds-line-link\">Zu den Industriereinigern <svg width=\"18\" height=\"18\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></span></a>",
+      "css": ".ds-line{display:flex;flex-direction:column;gap:8px;max-width:360px;text-decoration:none;color:#2e3133;border-top:2px solid #2e3133;padding-top:20px;transition:border-color .2s cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;} .ds-line:hover{border-top-color:#ec6e3e} .ds-line:focus-visible{outline:2px solid #b84a24;outline-offset:3px} .ds-line-media{aspect-ratio:16/10;background:#f3f4f5;border-radius:6px;margin-bottom:14px} .ds-line h3{margin:0;font-size:1.25rem;font-weight:600;letter-spacing:-0.01em} .ds-line p{margin:0;color:#5b6064} .ds-line-meta{font-size:.95rem;color:#5b6064;font-variant-numeric:tabular-nums} .ds-line-link{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-weight:600;color:#b84a24} .ds-line:hover .ds-line-link{color:#993d1c}"
+    },
+    {
+      "name": "FAQ",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Native details zwischen Haarlinien, Plus dreht sich offen um 45 Grad.",
+      "html": "<div class=\"ds-faq\"><details open><summary>Bekomme ich vorab Muster?<svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z\"/></svg></summary><p>Ja. Nach Ihrer Anfrage erhalten Sie kostenlose Muster.</p></details><details><summary>Gestalten Sie auch das Etikett?<svg width=\"20\" height=\"20\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z\"/></svg></summary><p>Nein. Die Druckdaten liefern Sie uns.</p></details></div>",
+      "css": ".ds-faq{font-family:Archivo,system-ui,sans-serif;color:#2e3133} .ds-faq details{border-bottom:1px solid #e2e4e6} .ds-faq details:first-child{border-top:1px solid #e2e4e6} .ds-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:22px 0;font-weight:600;font-size:1.125rem} .ds-faq summary::-webkit-details-marker{display:none} .ds-faq summary svg{color:#b84a24;transition:transform .25s cubic-bezier(0.16,1,0.3,1)} .ds-faq details[open] summary svg{transform:rotate(45deg)} .ds-faq summary:hover{color:#b84a24} .ds-faq summary:focus-visible{outline:2px solid #b84a24;outline-offset:3px} .ds-faq p{margin:0;padding:0 48px 24px 0;color:#5b6064;max-width:62ch}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Das saubere Werksdatenblatt",
+    "overview": "Die Seite wirkt wie ein gut gesetztes technisches Datenblatt eines deutschen Herstellers: weißer, kühler Grund, Anthrazit als Schrift, Haarlinien als Ordnungsmittel und Orange nur dort, wo etwas markiert werden soll. Information steht in Zeilen und Spalten, nicht in Kacheln. Zahlen, Gebinde und Mindestmengen bekommen eigene, tabellarisch gesetzte Felder, weil sie das Vertrauen tragen.\n\nDie Dichte ist ruhig: großzügige Sektionsabstände (bis 112px), eine einzige Schriftfamilie in vier Schnitten, ein einziger Radius. Getönte Sektionen in Nebelgrau wechseln sich mit weißen ab und gliedern die Seite ohne Karten oder Schatten. Den Abschluss bildet eine anthrazitfarbene Fußfläche mit Anfrage, Telefon und E-Mail. Bewegung bleibt zurückhaltend: das Heldenbild setzt sich einmal beim Laden, alles andere reagiert nur auf Hover.\n\nAbgelehnt ist laut Richtungsvertrag die überladene Branchenseite mit Kachelwand, Laborstock und Werbefloskeln.",
+    "keyCharacteristics": [
+      "Weiß und Nebelgrau als Flächen, Anthrazit als Schrift und als einzige dunkle Fläche (Footer).",
+      "Logo-Orange nur als Markierung: Linien, Icons, Schrittkreise, Navigationsunterstrich.",
+      "Rostorange für alles Klickbare (Buttons, Links, Fokusring).",
+      "Linien statt Karten: Haarlinien (1px) gliedern Fakten, Gebinde, FAQ; eine 2px-Oberkante führt die Produktlinien.",
+      "Archivo 400 bis 700, kein Serif, enge Laufweite in Überschriften.",
+      "Ein Radius (6px) für Buttons, Bildrahmen und Hinweisflächen."
+    ],
+    "rules": [
+      {
+        "name": "The Zwei-Orange Rule",
+        "body": "Logo-Orange markiert, Rostorange handelt. Text oder Buttonflächen in Logo-Orange gibt es nicht, weil es auf Weiß nur 3.1:1 erreicht.",
+        "section": "colors"
+      },
+      {
+        "name": "The Eine-dunkle-Fläche Rule",
+        "body": "Anthrazit als Fläche erscheint nur im Footer. Alle anderen Sektionen sind Weiß oder Nebelgrau im Wechsel.",
+        "section": "colors"
+      },
+      {
+        "name": "The Etikettenfarben Rule",
+        "body": "Die Produktfarben der Etiketten (z. B. Lila, Blau) gehören zu den Produkten und erscheinen nur in Produktfotos, nie als Website-Farbe.",
+        "section": "colors"
+      },
+      {
+        "name": "The Enge-Überschrift Rule",
+        "body": "H1 und H2 laufen mit -0.02em und `text-wrap: balance`; H3 mit -0.01em. Fließtext bleibt bei normaler Laufweite mit `text-wrap: pretty`.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabellarische-Zahl Rule",
+        "body": "Jede Zahl, die ein Faktum trägt (Faktenzeile, Gebinde, Schrittnummer, Produktanzahl), steht in tabellarischen Ziffern.",
+        "section": "typography"
+      },
+      {
+        "name": "The Linie-statt-Karte Rule",
+        "body": "Inhalte werden mit Haarlinien und Flächenwechseln gegliedert. Keine Karten mit Rahmen und Schatten; eine Gruppe bekommt höchstens eine Oberkante oder eine Nebelgrau-Fläche.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Ein-Radius Rule",
+        "body": "6px oder kreisrund, sonst nichts.",
+        "section": "shapes"
+      }
+    ],
+    "dos": [
+      "Do setze Buttons und Textlinks in Rostorange (#b84a24) und Logo-Orange (#ec6e3e) nur für Linien, Icons und Markierungen.",
+      "Do gliedere mit Haarlinien (1px, #e2e4e6) und dem Wechsel Weiß / Nebelgrau statt mit Karten.",
+      "Do setze Zahlen, Mengen und Gebinde in tabellarischen Ziffern und gib ihnen ein eigenes Feld.",
+      "Do verwende 6px für jede Ecke und lege Bilder in Rahmen mit festem Seitenverhältnis auf Nebelgrau.",
+      "Do halte Bewegung auf Hover und das einmalige Setzen des Heldenbilds beschränkt, mit der Kurve cubic-bezier(0.16, 1, 0.3, 1)."
+    ],
+    "donts": [
+      "Don't baue eine Kachelwand oder überladene Branchenseite mit Laborstock und Werbefloskeln (Richtungsvertrag).",
+      "Don't setze Text oder Buttonflächen in Logo-Orange; es erreicht auf Weiß nur 3.1:1.",
+      "Don't nutze Schatten für ruhende Flächen; der Overlay-Schatten gehört nur aufklappenden Ebenen.",
+      "Don't füge eine Serifenschrift oder zweite Familie hinzu.",
+      "Don't übernimm Etikettenfarben einzelner Produkte als Website-Farben."
+    ]
+  }
+}
