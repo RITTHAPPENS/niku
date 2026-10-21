@@ -48,7 +48,9 @@ Ablauf Private Label: Anfrage mit Produktwünschen, dann Angebot und Bemusterung
 
 ## Evidence on Hand
 
-- Bestätigte Zahlen: seit 2019, 100+ lieferbare Formulierungen, 250+ Kunden, 10.000+ Liter Produktion täglich.
+- Quellen der Website-Fakten: Fragebogen und Briefing vom Geschäftsführer, Produktliste (Oktober 2026), bisherige Website niku-chemie.de (eigene Forschung und Entwicklung, Lieferung an jeden Standort inkl. Lager in ganz Europa).
+- Produktliste: Profi-Linie u. a. Auto Shampoo, Felgenreiniger, Insektenentferner, Innenraumreiniger, Ceramic Schnellversiegelung (10 l bis 1.000 l IBC); Handel 500 ml bis 5 l; Industrie Werkstattbodenreiniger, Glasreiniger-Konzentrat, Multireiniger Alkali, Entkalker (10 l bis 1.000 l IBC). Kanister 5 l, 10 l, 25 l.
+- Bestätigte Zahlen: seit 2019, 100+ lieferbare Formulierungen, 250+ Kunden (bisherige Website: "250+ zufriedene Kunden", vom Geschäftsführer als korrekt bestätigt), 10.000+ Liter Produktion täglich.
 - Produktbilder: Felgenreiniger 1 l und Auto Innenreiniger 500 ml (je Vorder-, Rückseite, Kombination), IBC und Fass als Render, Logo dunkel und weiß (assets/).
 - Fehlend und nicht zu erfinden: Produktionsfotos, Bilder der übrigen 18 Produkte, Kanisterbilder, Zertifikate, Kundenstimmen, Referenzen.
 
