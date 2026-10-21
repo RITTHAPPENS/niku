@@ -25,4 +25,4 @@ Lizenzierte Platzhalter aus dem Magnific-Premium-Konto, bis echte Fotos aus der 
 | Private Label | `private-label-flaschen.jpg` |
 | Fahrzeugpflege Professionell | `felgen-detailing.jpg` |
 | Produktion | `qualitaetskontrolle.jpg` |
-| Industriereiniger | offen, bisher als Magnific-Vorschau verlinkt (`werkstattboden.jpg` vorgesehen) |
+| Industriereiniger | `werkstattboden.jpg` |

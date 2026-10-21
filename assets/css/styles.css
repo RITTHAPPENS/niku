@@ -281,3 +281,4 @@ p { margin: 0; text-wrap: pretty; }
 .site-footer .contact-line:hover { color: #fff; }
 
 .section--flush-top { padding-top: 0; }
+.line-media img.focus-right { object-position: 76% 50%; }
