@@ -17,14 +17,12 @@ Statischer Screendesign-Entwurf der neuen Startseite von niku-chemie.de. Die Liv
 
 ## Stockbilder (Magnific)
 
-Diese fünf Bilder sind im Entwurf noch als Vorschau von img.magnific.com eingebunden. Für die Live-Seite herunterladen und unter `assets/img/stock/` ablegen:
+Lizenzierte Platzhalter aus dem Magnific-Premium-Konto, bis echte Fotos aus der Produktion in Veitsbronn vorliegen. Abgelegt unter `assets/img/stock/`:
 
-| Bereich | Datei | Motiv |
-|---|---|---|
-| Hero | `hero-kanister.jpg` | Lightcolored plastic cans in stock production factory (Premium) |
-| Private Label | `private-label-flaschen.jpg` | Transparent plastic bottles filled with yellow substance |
-| Fahrzeugpflege Professionell | `felgen-detailing.jpg` | Professional detailer cleans car rims in a detailing studio (Premium) |
-| Industriereiniger | `werkstattboden.jpg` | Automotive technician cleaning workshop floor with squeegee (Premium) |
-| Produktion | `qualitaetskontrolle.jpg` | Technologist in white uniform checking quality in industrial production factory |
-
-Platzhalter, bis echte Fotos aus der Produktion in Veitsbronn vorliegen.
+| Bereich | Datei |
+|---|---|
+| Hero | `hero-kanister.jpg` |
+| Private Label | `private-label-flaschen.jpg` |
+| Fahrzeugpflege Professionell | `felgen-detailing.jpg` |
+| Produktion | `qualitaetskontrolle.jpg` |
+| Industriereiniger | offen, bisher als Magnific-Vorschau verlinkt (`werkstattboden.jpg` vorgesehen) |
