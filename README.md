@@ -13,7 +13,7 @@ Statischer Screendesign-Entwurf der neuen Startseite von niku-chemie.de. Die Liv
 - `assets/js/main.js` Mobilmenü
 - `assets/fonts/` Archivo, selbst gehostet (SIL Open Font License)
 - `assets/brand/` Logo dunkel und weiß
-- `assets/img/` Produktbilder und IBC-Render vom Kunden
+- `assets/img/` Produktbilder und IBC-Render vom Kunden, dazu freigestellte Varianten (`*-freigestellt.webp`)
 
 ## Stockbilder (Magnific)
 
