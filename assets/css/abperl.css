@@ -274,10 +274,10 @@ img.focus-right { object-position: 76% 50%; }
 .sub-img--product { display: grid; place-items: center; padding: 5px; }
 .sub-img--product img { width: auto; height: 46px; object-fit: contain; }
 .nav .has-sub .sub-list a:hover .sub-img img { transform: scale(1.06); }
-.sub-text strong { display: block; font-weight: 650; line-height: 1.2; }
+.sub-text strong { display: block; font-weight: 650; line-height: 1.3; }
 .sub-text small { display: block; margin-top: 3px; font-size: 0.875rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .nav .has-sub a.sub-all { display: flex; align-items: center; justify-content: space-between; margin-top: 8px; padding: 14px 18px; border-radius: 16px; background: var(--glanz); font-weight: 650; }
-.nav .has-sub a.sub-all:hover { background: var(--glanz-2); }
+.nav .has-sub a.sub-all:hover { background: var(--glanz); color: var(--ink); }
 .sub-all .icon { width: 18px; height: 18px; color: var(--orange-ink); transition: transform 0.25s var(--ease); }
 .sub-all:hover .icon { transform: translateX(4px); }
 
