@@ -1,6 +1,6 @@
 # NiKu Chemie Website (Entwurf)
 
-Statischer Screendesign-Entwurf der neuen Startseite von niku-chemie.de. Die Live-Seite wird anschließend in WordPress mit Elementor umgesetzt.
+Statischer Screendesign-Entwurf von niku-chemie.de (gewählte Richtung: Abperleffekt). Die Live-Seite wird anschließend in WordPress mit Elementor umgesetzt.
 
 ## Ansehen
 
@@ -9,8 +9,9 @@ Statischer Screendesign-Entwurf der neuen Startseite von niku-chemie.de. Die Liv
 ## Aufbau
 
 - `index.html` Startseite
-- `assets/css/styles.css` Gestaltung (Farben, Schrift, Abstände als Variablen oben in der Datei)
-- `assets/js/main.js` Mobilmenü
+- `assets/css/site.css` Gestaltung (Farben, Schrift, Abstände als Variablen oben in der Datei)
+- `assets/js/main.js` Mobilmenü, `assets/js/site.js` Untermenü und Gebinde-Animation
+- `archiv/druckbogen/` verworfene Variante Druckbogen (nutzt `assets/css/styles.css`), noindex
 - `assets/fonts/` Archivo, selbst gehostet (SIL Open Font License)
 - `assets/brand/` Logo dunkel und weiß
 - `assets/img/` Produktbilder und IBC-Render vom Kunden, dazu freigestellte Varianten (`*-freigestellt.webp`)
