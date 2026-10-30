@@ -1,0 +1,51 @@
+/* Varianten für das Produkte-Untermenü (nur Desktop, mobil gilt das Akkordeon aus site.css) */
+
+@media (min-width: 1001px) {
+
+  /* A: schlichte Textliste */
+  html[data-menu="a"] .sub { width: 320px; padding: 8px; border-radius: 20px; }
+  html[data-menu="a"] .nav .has-sub .sub-list a { grid-template-columns: 1fr; padding: 12px 14px; border-radius: 14px; }
+  html[data-menu="a"] .nav .has-sub a.sub-all { justify-content: flex-start; gap: 8px; margin: 6px 0 0; padding: 14px 14px 10px; border-top: 1px solid var(--glanz-2); border-radius: 0; background: none; color: var(--orange-ink); }
+  html[data-menu="a"] .nav .has-sub a.sub-all:hover { color: var(--ink); }
+
+  /* B: breites Panel unter dem Header */
+  html[data-menu="b"] .has-sub,
+  html[data-menu="c"] .has-sub { position: static; }
+  html[data-menu="b"] .sub { left: 0; right: 0; top: 100%; width: auto; padding: 36px 0 44px; border-radius: 0 0 32px 32px; transform: translateY(-6px); box-shadow: 0 30px 60px -36px rgba(46, 49, 51, 0.45); }
+  html[data-menu="b"] .has-sub:hover .sub,
+  html[data-menu="b"] .has-sub:focus-within .sub,
+  html[data-menu="b"] .has-sub.is-open .sub { transform: none; }
+  html[data-menu="b"] .sub::before { top: -24px; height: 24px; }
+  html[data-menu="b"] .mega { display: grid; grid-template-columns: minmax(0, 0.75fr) minmax(0, 2.25fr); gap: 56px; align-items: start; }
+  html[data-menu="b"] .mega-intro strong { display: block; font-size: 1.875rem; font-weight: 720; line-height: 1.1; letter-spacing: -0.025em; }
+  html[data-menu="b"] .mega-intro p { margin: 12px 0 26px; color: var(--ink-2); max-width: 30ch; }
+  html[data-menu="b"] .mega .sub-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  html[data-menu="b"] .nav .has-sub .mega .sub-list a { display: block; padding: 0; border-radius: 0; background: none; }
+  html[data-menu="b"] .mega .sub-img { position: relative; width: 100%; height: auto; aspect-ratio: 4 / 3; margin-bottom: 14px; border-radius: 20px; }
+  html[data-menu="b"] .mega .sub-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  html[data-menu="b"] .mega .sub-img--product img { inset: 8%; width: 84%; height: 84%; object-fit: contain; }
+  html[data-menu="b"] .mega .sub-text strong { font-size: 1.125rem; }
+  html[data-menu="b"] .nav .has-sub .mega .sub-list a:hover strong { color: var(--orange-ink); }
+  html[data-menu="b"] .nav .has-sub > .sub > a.sub-all { display: none; }
+
+  /* C: schmale Leiste mit Pillen */
+  html[data-menu="c"] .sub { left: 0; right: 0; top: 100%; width: auto; padding: 12px 0; border-radius: 0; background: var(--glanz); box-shadow: none; transform: translateY(-4px); }
+  html[data-menu="c"] .has-sub:hover .sub,
+  html[data-menu="c"] .has-sub:focus-within .sub,
+  html[data-menu="c"] .has-sub.is-open .sub { transform: none; }
+  html[data-menu="c"] .sub::before { top: -24px; height: 24px; }
+  html[data-menu="c"] .bar { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+  html[data-menu="c"] .bar .sub-list { display: flex; gap: 8px; }
+  html[data-menu="c"] .nav .has-sub .bar .sub-list a { display: block; padding: 10px 20px; border-radius: 999px; background: var(--white); }
+  html[data-menu="c"] .nav .has-sub .bar .sub-list a:hover { background: var(--ink); color: #fff; }
+  html[data-menu="c"] .bar .sub-text strong { font-size: 0.975rem; font-weight: 600; }
+  html[data-menu="c"] .bar .sub-text small { display: none; }
+  html[data-menu="c"] .nav .has-sub .bar a.sub-all { margin: 0 0 0 8px; padding: 10px 6px; background: none; color: var(--orange-ink); gap: 8px; }
+  html[data-menu="c"] .nav .has-sub .bar a.sub-all:hover { color: var(--ink); }
+}
+
+/* Mobil: alle Varianten nutzen das gleiche Akkordeon */
+@media (max-width: 1000px) {
+  html[data-menu="b"] .mega-intro { display: none; }
+  html[data-menu] .mega, html[data-menu] .bar { padding: 0; }
+}
