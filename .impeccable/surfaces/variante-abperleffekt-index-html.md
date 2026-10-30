@@ -13,7 +13,7 @@ Mode: Persuade. Dritte Variante, gleiche Inhalte und Besucher wie die Startseite
 
 THESIS: Die Seite zeigt die Wirkung der Produkte, bevor sie Fakten nennt: Schaum, Wasserperlen, sauberer Glanz in großen Makrobildern. Verweigert werden Tabellenseite, Laborstock und dunkle Hochglanz-Detailingseite.
 
-OWN-WORLD: Helles, luftiges Weiß mit kühlem Glanzgrau #EEF2F4, Anthrazit #2E3133 für Schrift, Logo-Orange #EC6E3E als große Abschlussfläche und Buttonfarbe. Weiche Formen: Bilder mit 20 px Radius, Buttons als Pille, Kreise als Tropfen-Motiv. Bricolage Grotesque (variabel, optische Größen) für Überschriften und Text. Keine Eyebrows, keine Verlaufs-Overlays, keine Tabellen als Gestaltungsmittel.
+OWN-WORLD: Helles, luftiges Weiß mit kühlem Glanzgrau #EEF2F4, Anthrazit #2E3133 für Schrift, Logo-Orange #EC6E3E als große Abschlussfläche und Buttonfarbe. Weiche Formen: Bilder mit 20 px Radius, Buttons als Pille, Kreise als Tropfen-Motiv. Archivo (variabel) für Überschriften und Text (Nutzerwunsch, ersetzt Bricolage). Keine Eyebrows, keine Verlaufs-Overlays, keine Tabellen als Gestaltungsmittel.
 
 STORY: Der Besucher sieht zuerst, was die Produkte leisten, und versteht dann: Diese Produkte kann ich unter meiner Marke haben. Er glaubt es wegen Ablauf, Gebinden und Mindestmengen. Er stellt eine Anfrage.
 
