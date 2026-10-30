@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-21T15:46:32+00:00",
+  "generatedAt": "2026-10-30T07:03:04+00:00",
   "title": "Design System: NiKu Chemie",
   "extensions": {
     "colorMeta": {
@@ -22,37 +22,22 @@
       "ink-2": {
         "role": "neutral",
         "displayName": "Schiefer",
-        "canonical": "oklch(46.8% 0.009 241.8)",
+        "canonical": "oklch(46.4% 0.010 236.8)",
         "tonalRamp": [
-          "oklch(15% 0.009 241.8)",
-          "oklch(26% 0.009 241.8)",
-          "oklch(38% 0.009 241.8)",
-          "oklch(50% 0.009 241.8)",
-          "oklch(62% 0.009 241.8)",
-          "oklch(74% 0.009 241.8)",
-          "oklch(85% 0.009 241.8)",
-          "oklch(95% 0.009 241.8)"
-        ]
-      },
-      "ink-3": {
-        "role": "neutral",
-        "displayName": "Teilstrich",
-        "canonical": "oklch(64.7% 0.008 241.7)",
-        "tonalRamp": [
-          "oklch(15% 0.008 241.7)",
-          "oklch(26% 0.008 241.7)",
-          "oklch(38% 0.008 241.7)",
-          "oklch(50% 0.008 241.7)",
-          "oklch(62% 0.008 241.7)",
-          "oklch(74% 0.008 241.7)",
-          "oklch(85% 0.008 241.7)",
-          "oklch(95% 0.008 241.7)"
+          "oklch(15% 0.010 236.8)",
+          "oklch(26% 0.010 236.8)",
+          "oklch(38% 0.010 236.8)",
+          "oklch(50% 0.010 236.8)",
+          "oklch(62% 0.010 236.8)",
+          "oklch(74% 0.010 236.8)",
+          "oklch(85% 0.010 236.8)",
+          "oklch(95% 0.010 236.8)"
         ]
       },
       "ink-deep": {
         "role": "neutral",
-        "displayName": "Tiefschwarz",
-        "canonical": "oklch(18.5% 0.004 229.0)",
+        "displayName": "Tiefanthrazit",
+        "canonical": "oklch(20.3% 0.004 229.0)",
         "tonalRamp": [
           "oklch(15% 0.004 229.0)",
           "oklch(26% 0.004 229.0)",
@@ -64,79 +49,49 @@
           "oklch(95% 0.004 229.0)"
         ]
       },
-      "paper": {
+      "white": {
         "role": "neutral",
-        "displayName": "Papier",
-        "canonical": "oklch(100% 0 0)",
+        "displayName": "Weiß",
+        "canonical": "oklch(100.0% 0.000 89.9)",
         "tonalRamp": [
-          "oklch(15% 0 0)",
-          "oklch(26% 0 0)",
-          "oklch(38% 0 0)",
-          "oklch(50% 0 0)",
-          "oklch(62% 0 0)",
-          "oklch(74% 0 0)",
-          "oklch(85% 0 0)",
-          "oklch(95% 0 0)"
+          "oklch(15% 0.000 89.9)",
+          "oklch(26% 0.000 89.9)",
+          "oklch(38% 0.000 89.9)",
+          "oklch(50% 0.000 89.9)",
+          "oklch(62% 0.000 89.9)",
+          "oklch(74% 0.000 89.9)",
+          "oklch(85% 0.000 89.9)",
+          "oklch(95% 0.000 89.9)"
         ]
       },
-      "paper-2": {
+      "glanz": {
         "role": "neutral",
-        "displayName": "Hellgrau",
-        "canonical": "oklch(96.3% 0.001 197.1)",
+        "displayName": "Glanzgrau",
+        "canonical": "oklch(95.9% 0.005 228.8)",
         "tonalRamp": [
-          "oklch(15% 0.001 197.1)",
-          "oklch(26% 0.001 197.1)",
-          "oklch(38% 0.001 197.1)",
-          "oklch(50% 0.001 197.1)",
-          "oklch(62% 0.001 197.1)",
-          "oklch(74% 0.001 197.1)",
-          "oklch(85% 0.001 197.1)",
-          "oklch(95% 0.001 197.1)"
+          "oklch(15% 0.005 228.8)",
+          "oklch(26% 0.005 228.8)",
+          "oklch(38% 0.005 228.8)",
+          "oklch(50% 0.005 228.8)",
+          "oklch(62% 0.005 228.8)",
+          "oklch(74% 0.005 228.8)",
+          "oklch(85% 0.005 228.8)",
+          "oklch(95% 0.005 228.8)"
         ]
       },
-      "product-ground": {
+      "glanz-2": {
         "role": "neutral",
-        "displayName": "Produktgrund",
-        "canonical": "oklch(93.0% 0.003 228.8)",
+        "displayName": "Glanzgrau dunkel",
+        "canonical": "oklch(92.1% 0.009 232.4)",
         "tonalRamp": [
-          "oklch(15% 0.003 228.8)",
-          "oklch(26% 0.003 228.8)",
-          "oklch(38% 0.003 228.8)",
-          "oklch(50% 0.003 228.8)",
-          "oklch(62% 0.003 228.8)",
-          "oklch(74% 0.003 228.8)",
-          "oklch(85% 0.003 228.8)",
-          "oklch(95% 0.003 228.8)"
-        ]
-      },
-      "rule": {
-        "role": "neutral",
-        "displayName": "Linie",
-        "canonical": "oklch(89.3% 0.004 236.5)",
-        "tonalRamp": [
-          "oklch(15% 0.004 236.5)",
-          "oklch(26% 0.004 236.5)",
-          "oklch(38% 0.004 236.5)",
-          "oklch(50% 0.004 236.5)",
-          "oklch(62% 0.004 236.5)",
-          "oklch(74% 0.004 236.5)",
-          "oklch(85% 0.004 236.5)",
-          "oklch(95% 0.004 236.5)"
-        ]
-      },
-      "rule-strong": {
-        "role": "neutral",
-        "displayName": "Linie kräftig",
-        "canonical": "oklch(84.6% 0.006 239.8)",
-        "tonalRamp": [
-          "oklch(15% 0.006 239.8)",
-          "oklch(26% 0.006 239.8)",
-          "oklch(38% 0.006 239.8)",
-          "oklch(50% 0.006 239.8)",
-          "oklch(62% 0.006 239.8)",
-          "oklch(74% 0.006 239.8)",
-          "oklch(85% 0.006 239.8)",
-          "oklch(95% 0.006 239.8)"
+          "oklch(15% 0.009 232.4)",
+          "oklch(26% 0.009 232.4)",
+          "oklch(38% 0.009 232.4)",
+          "oklch(50% 0.009 232.4)",
+          "oklch(62% 0.009 232.4)",
+          "oklch(74% 0.009 232.4)",
+          "oklch(85% 0.009 232.4)",
+          "oklch(95% 0.009 232.4)"
         ]
       },
       "orange": {
@@ -183,62 +138,32 @@
           "oklch(85% 0.005 219.7)",
           "oklch(95% 0.005 219.7)"
         ]
-      },
-      "night": {
-        "role": "neutral",
-        "displayName": "Night",
-        "canonical": "oklch(27.1% 0.007 248.1)",
-        "tonalRamp": [
-          "oklch(15% 0.007 248.1)",
-          "oklch(26% 0.007 248.1)",
-          "oklch(38% 0.007 248.1)",
-          "oklch(50% 0.007 248.1)",
-          "oklch(62% 0.007 248.1)",
-          "oklch(74% 0.007 248.1)",
-          "oklch(85% 0.007 248.1)",
-          "oklch(95% 0.007 248.1)"
-        ]
-      },
-      "night-muted": {
-        "role": "neutral",
-        "displayName": "Night gedämpft",
-        "canonical": "oklch(79.6% 0.006 239.8)",
-        "tonalRamp": [
-          "oklch(15% 0.006 239.8)",
-          "oklch(26% 0.006 239.8)",
-          "oklch(38% 0.006 239.8)",
-          "oklch(50% 0.006 239.8)",
-          "oklch(62% 0.006 239.8)",
-          "oklch(74% 0.006 239.8)",
-          "oklch(85% 0.006 239.8)",
-          "oklch(95% 0.006 239.8)"
-        ]
       }
     },
     "typographyMeta": {
       "display": {
         "displayName": "Display",
-        "purpose": "Nur die H1 im Hero."
+        "purpose": "Nur die H1 in der weißen Hero-Fläche."
       },
       "closing": {
         "displayName": "Closing",
-        "purpose": "H2 des Abschlussbogens."
+        "purpose": "H2 der orangen Abschlussfläche, max. 13ch."
       },
       "headline": {
         "displayName": "Headline",
-        "purpose": "Sektionsüberschriften H2, max. 20ch."
-      },
-      "title-lg": {
-        "displayName": "Title large",
-        "purpose": "H3 der zwei Säulen."
+        "purpose": "Sektions-H2."
       },
       "title": {
         "displayName": "Title",
-        "purpose": "Standard-H3, Schritte, Punktetitel."
+        "purpose": "H3 in Wegen, Schritten, Produktlinien."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "Großer Zahlenabsatz unter dem Hero, Schiefer mit Kennzahlen in Anthrazit 700."
       },
       "figure": {
         "displayName": "Figure",
-        "purpose": "Gebindewerte am Lineal, tabellarisch."
+        "purpose": "Gebindewerte unter den Kreisen, tabellarisch."
       },
       "lead": {
         "displayName": "Lead",
@@ -246,11 +171,15 @@
       },
       "intro": {
         "displayName": "Intro",
-        "purpose": "Sektionseinleitung unter der H2, max. 54ch."
+        "purpose": "Einleitung unter Sektions-H2, Produktionstext."
       },
       "body": {
         "displayName": "Body",
-        "purpose": "Fließtext; unter 600px 1rem."
+        "purpose": "Grundtext; unter 600px 1.0625rem."
+      },
+      "question": {
+        "displayName": "Question",
+        "purpose": "FAQ-Fragen."
       },
       "label": {
         "displayName": "Label",
@@ -258,79 +187,110 @@
       },
       "nav": {
         "displayName": "Nav",
-        "purpose": "Hauptnavigation."
+        "purpose": "Hauptnavigation; mobil 1.25rem."
       },
-      "slug": {
-        "displayName": "Slug (Condensed 78%)",
-        "purpose": "Kurze Bogenbeschriftungen: Faktenzeile, Stanzhinweis, Konditionsbegriffe, Produkt-Meta."
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Meta-Pillen der Produktlinien; im Untermenü 0.875rem."
       }
     },
     "shadows": [
       {
-        "name": "bottle-drop",
-        "value": "filter: drop-shadow(0 22px 22px rgba(46, 49, 51, 0.28))",
-        "purpose": "Nur die freigestellte Produktflasche vor dem Bogen."
+        "name": "hero-panel",
+        "value": "0 30px 60px -36px rgba(46, 49, 51, 0.35)",
+        "purpose": "Weiße Hero-Fläche über der Bildkante."
       },
       {
-        "name": "menu-overlay",
-        "value": "0 24px 32px -24px rgba(46, 49, 51, 0.3)",
-        "purpose": "Nur das aufgeklappte Mobilmenü."
+        "name": "hero-bottle",
+        "value": "drop-shadow(0 30px 28px rgba(46, 49, 51, 0.32))",
+        "purpose": "Freigestellte Flasche über der Bildkante (filter)."
+      },
+      {
+        "name": "product-stage",
+        "value": "drop-shadow(0 20px 20px rgba(46, 49, 51, 0.2))",
+        "purpose": "Freigestellte Flaschen auf der Produktbühne; Produktlinie 0 16px 16px (filter)."
+      },
+      {
+        "name": "die-note",
+        "value": "0 10px 24px -14px rgba(46, 49, 51, 0.45)",
+        "purpose": "Pille Ihr Etikett."
+      },
+      {
+        "name": "submenu",
+        "value": "0 24px 60px -28px rgba(46, 49, 51, 0.45), 0 0 0 1px rgba(46, 49, 51, 0.05)",
+        "purpose": "Untermenü-Panel am Desktop."
+      },
+      {
+        "name": "header-glass",
+        "value": "background: rgba(255, 255, 255, 0.82); backdrop-filter: blur(14px) saturate(160%)",
+        "purpose": "Sticky Header; ohne backdrop-filter 0.94 Weiß."
       }
     ],
     "motion": [
       {
         "name": "ease",
         "value": "cubic-bezier(0.16, 1, 0.3, 1)",
-        "purpose": "Einzige Kurve für Laden und Hover."
+        "purpose": "Einzige Kurve für Laden, Hover und Scroll."
       },
       {
         "name": "hover-color",
-        "value": "0.2s",
-        "purpose": "Farbwechsel von Buttons."
+        "value": "0.2s bis 0.25s",
+        "purpose": "Farbwechsel von Buttons, Nav-Pillen, Plus-Kreis."
       },
       {
         "name": "hover-nudge",
-        "value": "0.25s",
-        "purpose": "Pfeil 4px (Index 6px) nach rechts, Nav-Unterstrich."
+        "value": "0.25s, translateX(4px)",
+        "purpose": "Pfeil in Buttons, Textlinks und Alle Produkte."
+      },
+      {
+        "name": "press",
+        "value": "scale(0.98)",
+        "purpose": "Button aktiv."
       },
       {
         "name": "hover-image",
-        "value": "0.6s",
-        "purpose": "Bildzoom 1.05 im Produktindex, Flaschenkippen in der Säule."
+        "value": "0.8s, scale(1.04)",
+        "purpose": "Bildzoom in Wegen und Produktlinien; Flaschen heben sich 6px; Untermenü-Bild 1.06 in 0.5s."
       },
       {
-        "name": "load-marks",
-        "value": "0.7s, Verzögerung 0.35s",
-        "purpose": "Schnittmarken ziehen sich einmal auf (scaleX/scaleY)."
+        "name": "faq-open",
+        "value": "0.3s, rotate(45deg)",
+        "purpose": "Plus-Kreis dreht beim Öffnen."
+      },
+      {
+        "name": "submenu",
+        "value": "opacity 0.25s, transform 0.35s, translate 8px",
+        "purpose": "Untermenü blendet ein und steigt auf."
+      },
+      {
+        "name": "load-soak",
+        "value": "1.6s, scale(1.06) und blur(6px) auf 0",
+        "purpose": "Hero-Bild setzt sich."
+      },
+      {
+        "name": "load-lift",
+        "value": "0.9s ab 0.15s (Fläche), 1s ab 0.35s (Flasche), translateY(28px)",
+        "purpose": "Hero-Fläche und Flasche steigen auf."
       },
       {
         "name": "load-die",
-        "value": "0.8s, Verzögerung 0.85s",
-        "purpose": "Stanzkontur zieht sich von 1.06 auf 1 zusammen; Hinweis folgt ab 1.1s."
+        "value": "0.7s ab 1s, Hinweis 0.6s ab 1.25s, scale(1.05) auf 1",
+        "purpose": "Stanzlinie und Etikett-Hinweis erscheinen."
       },
       {
-        "name": "load-colorbar",
-        "value": "0.4s, ab 0.6s je Feld +0.05s",
-        "purpose": "Farbfelder blenden gestaffelt ein."
-      },
-      {
-        "name": "load-photo",
-        "value": "1.2s",
-        "purpose": "Hero-Foto setzt sich (Skalierung 1.04 auf 1); Flasche steigt 32px auf (1s, ab 0.15s)."
+        "name": "scroll-fill",
+        "value": "1.1s, je Kreis +0.25s, ab 35% Sichtbarkeit",
+        "purpose": "Gebinde-Kreise füllen sich von unten (clip-path)."
       }
     ],
     "breakpoints": [
-      {
-        "name": "lines-compact",
-        "value": "1080px"
-      },
       {
         "name": "nav-collapse",
         "value": "1000px"
       },
       {
         "name": "stack",
-        "value": "860px"
+        "value": "960px"
       },
       {
         "name": "mobile",
@@ -343,159 +303,174 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Logo-Orange mit Druckschwarz, scharfkantig; Hover wird Anthrazit mit Weiß.",
-      "html": "<a class=\"ds-btn-primary\" href=\"#\">Anfrage stellen <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
-      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 12px; min-height: 58px; padding: 0 28px; font-family: \"Archivo\", system-ui, sans-serif; font-weight: 650; font-size: 1.0625rem; line-height: 1; border: 0; border-radius: 0; text-decoration: none; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.15s cubic-bezier(0.16, 1, 0.3, 1); background: var(--orange, #ec6e3e); color: var(--on-orange, #1f2223); } .ds-btn-primary:hover { background: var(--ink, #2e3133); color: #fff; } .ds-btn-primary:hover .ds-icon { transform: translateX(4px); } .ds-btn-primary:active { transform: translateY(1px); } .ds-btn-primary:focus-visible { outline: 2px solid var(--orange-ink, #b84a24); outline-offset: 3px; } .ds-icon { width: 18px; height: 18px; flex: none; transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); }"
+      "description": "Orange Pille mit Pfeil für jede Anfrage-Aktion; Hover Anthrazit.",
+      "html": "<a class=\"ds-btn ds-btn-primary\" href=\"#\">Anfrage stellen <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-btn{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 24px;font:650 1.0625rem/1 Archivo,system-ui,sans-serif;border:0;border-radius:999px;cursor:pointer;text-decoration:none;transition:background-color .25s var(--ease),color .25s var(--ease),transform .2s var(--ease);} .ds-btn:active{transform:scale(.98);} .ds-btn:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;} .ds-icon{width:18px;height:18px;transition:transform .25s var(--ease);} .ds-btn:hover .ds-icon{transform:translateX(4px);} .ds-btn-primary{background:var(--orange);color:var(--on-orange);min-height:60px;padding:0 30px;font-size:1.125rem;} .ds-btn-primary:hover{background:var(--ink);color:#fff;}"
     },
     {
       "name": "Ink Button",
       "kind": "button",
       "refersTo": "button-ink",
-      "description": "Anthrazit mit Weiß; auf dem Orangefeld des Ablaufs und im weißen Abschlussbogen.",
-      "html": "<div class=\"ds-on-orange\"><a class=\"ds-btn-ink\" href=\"#\">Anfrage stellen <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a></div>",
-      "css": ".ds-on-orange { background: var(--orange, #ec6e3e); padding: 32px; } .ds-btn-ink { display: inline-flex; align-items: center; gap: 12px; min-height: 58px; padding: 0 28px; font-family: \"Archivo\", system-ui, sans-serif; font-weight: 650; font-size: 1.0625rem; line-height: 1; border: 0; border-radius: 0; text-decoration: none; cursor: pointer; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1), transform 0.15s cubic-bezier(0.16, 1, 0.3, 1); background: var(--ink, #2e3133); color: #fff; } .ds-btn-ink:hover { background: var(--ink-deep, #111314); } .ds-btn-ink:hover .ds-icon { transform: translateX(4px); } .ds-btn-ink:active { transform: translateY(1px); } .ds-btn-ink:focus-visible { outline: 2px solid var(--on-orange, #1f2223); outline-offset: 3px; } .ds-icon { width: 18px; height: 18px; flex: none; transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); }"
+      "description": "Anthrazit-Pille, nur auf der orangen Abschlussfläche.",
+      "html": "<div class=\"ds-on-orange\"><a class=\"ds-btn ds-btn-ink\" href=\"#\">Anfrage stellen <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a></div>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-btn{display:inline-flex;align-items:center;gap:12px;min-height:48px;padding:0 24px;font:650 1.0625rem/1 Archivo,system-ui,sans-serif;border:0;border-radius:999px;cursor:pointer;text-decoration:none;transition:background-color .25s var(--ease),color .25s var(--ease),transform .2s var(--ease);} .ds-btn:active{transform:scale(.98);} .ds-btn:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;} .ds-icon{width:18px;height:18px;transition:transform .25s var(--ease);} .ds-btn:hover .ds-icon{transform:translateX(4px);} .ds-on-orange{background:var(--orange);padding:32px;border-radius:32px;} .ds-btn-ink{background:var(--ink);color:#fff;min-height:60px;padding:0 30px;font-size:1.125rem;} .ds-btn-ink:hover{background:#151718;}"
     },
     {
       "name": "Text Link",
       "kind": "custom",
       "refersTo": "text-link",
-      "description": "Anthrazit mit 2px-Unterstrich in Logo-Orange und Pfeil in Orange-Tinte.",
+      "description": "Anthrazit mit Pfeil in Orange-Tinte; Hover Orange-Tinte und Pfeil 4px.",
       "html": "<a class=\"ds-text-link\" href=\"#\">Produkte ansehen <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a>",
-      "css": ".ds-text-link { display: inline-flex; align-items: center; gap: 10px; font-family: \"Archivo\", system-ui, sans-serif; font-weight: 650; color: var(--ink, #2e3133); text-decoration: underline; text-decoration-color: var(--orange, #ec6e3e); text-decoration-thickness: 2px; text-underline-offset: 6px; } .ds-text-link .ds-icon { color: var(--orange-ink, #b84a24); } .ds-text-link:hover { color: var(--orange-ink, #b84a24); } .ds-text-link:hover .ds-icon { transform: translateX(4px); } .ds-text-link:focus-visible { outline: 2px solid var(--orange-ink, #b84a24); outline-offset: 3px; } .ds-icon { width: 18px; height: 18px; flex: none; transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); }"
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-text-link{display:inline-flex;align-items:center;gap:10px;font-weight:650;font-size:1.125rem;color:var(--ink);text-decoration:none;} .ds-text-link .ds-icon{width:20px;height:20px;color:var(--orange-ink);transition:transform .25s var(--ease);} .ds-text-link:hover{color:var(--orange-ink);} .ds-text-link:hover .ds-icon{transform:translateX(4px);} .ds-text-link:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;border-radius:6px;}"
     },
     {
       "name": "Header Navigation",
       "kind": "nav",
-      "refersTo": "site-header",
-      "description": "Weißer Header 76px mit Haarlinie; Links ziehen einen orangen 2px-Unterstrich auf.",
-      "html": "<header class=\"ds-header\"><strong class=\"ds-logo\">NIKU</strong><nav class=\"ds-nav\"><a href=\"#\">Private Label</a><a href=\"#\">Produkte</a><a href=\"#\">Über uns</a><a class=\"ds-nav-btn\" href=\"#\">Anfrage stellen</a></nav></header>",
-      "css": ".ds-header { display: flex; align-items: center; justify-content: space-between; height: 76px; padding: 0 24px; background: var(--paper, #fff); border-bottom: 1px solid var(--rule, #d9dcde); font-family: \"Archivo\", system-ui, sans-serif; } .ds-logo { font-weight: 800; letter-spacing: 0.04em; color: var(--ink, #2e3133); } .ds-nav { display: flex; align-items: center; gap: 30px; } .ds-nav a:not(.ds-nav-btn) { color: var(--ink, #2e3133); text-decoration: none; font-weight: 550; font-size: 0.975rem; padding-block: 8px; background: linear-gradient(var(--orange, #ec6e3e), var(--orange, #ec6e3e)) no-repeat 0 100% / 0 2px; transition: background-size 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav a:not(.ds-nav-btn):hover { background-size: 100% 2px; } .ds-nav-btn { display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; background: var(--orange, #ec6e3e); color: var(--on-orange, #1f2223); font-weight: 650; font-size: 0.95rem; text-decoration: none; transition: background-color 0.2s cubic-bezier(0.16, 1, 0.3, 1), color 0.2s cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav-btn:hover { background: var(--ink, #2e3133); color: #fff; } .ds-nav a:focus-visible { outline: 2px solid var(--orange-ink, #b84a24); outline-offset: 3px; }"
+      "refersTo": "nav-link",
+      "description": "Weißer Glas-Header 72px, Links als Pillen mit Glanzgrau-Hover, Produkte mit Untermenü-Knopf, Primary-Button rechts.",
+      "html": "<header class=\"ds-header\"><strong class=\"ds-logo\">NIKU</strong><nav class=\"ds-nav\"><a href=\"#\">Private Label</a><a href=\"#\">Lohnabfüllung</a><span class=\"ds-has-sub\"><a href=\"#\">Produkte</a><button class=\"ds-sub-toggle\" aria-label=\"Produktlinien anzeigen\"><svg viewBox=\"0 0 256 256\" fill=\"currentColor\" width=\"14\" height=\"14\"><path d=\"M213.66,101.66l-80,80a8,8,0,0,1-11.32,0l-80-80A8,8,0,0,1,53.66,90.34L128,164.69l74.34-74.35a8,8,0,0,1,11.32,11.32Z\"/></svg></button></span><a class=\"ds-nav-cta\" href=\"#\">Anfrage stellen</a></nav></header>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-header{display:flex;align-items:center;justify-content:space-between;gap:24px;height:72px;padding:0 24px;background:rgba(255,255,255,.82);backdrop-filter:blur(14px) saturate(160%);} .ds-logo{font-weight:800;font-size:1.5rem;letter-spacing:-.02em;} .ds-nav{display:flex;align-items:center;gap:6px;} .ds-nav a{color:var(--ink);text-decoration:none;font-weight:550;font-size:1rem;padding:8px 14px;border-radius:999px;transition:background-color .2s var(--ease);} .ds-nav a:hover{background:var(--glanz);} .ds-nav a:focus-visible,.ds-sub-toggle:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;} .ds-has-sub{display:flex;align-items:center;} .ds-sub-toggle{display:grid;place-items:center;width:30px;height:30px;margin-left:-8px;border:0;border-radius:50%;background:none;color:var(--ink);cursor:pointer;} .ds-sub-toggle:hover{background:var(--glanz);} .ds-nav a.ds-nav-cta{margin-left:26px;display:inline-flex;align-items:center;min-height:44px;padding:0 20px;background:var(--orange);color:var(--on-orange);font-weight:650;} .ds-nav a.ds-nav-cta:hover{background:var(--ink);color:#fff;}"
     },
     {
-      "name": "Schnittmarken-Rahmen",
-      "kind": "custom",
-      "refersTo": "close-sheet",
-      "description": "Vier Schnittmarken außerhalb der Bildecken, Passkreuz mittig über der Oberkante, 22px Bleed.",
-      "html": "<div class=\"ds-sheet-wrap\"><div class=\"ds-photo ds-marks\"><span class=\"ds-mark ds-tl\"></span><span class=\"ds-mark ds-tr\"></span><span class=\"ds-mark ds-bl\"></span><span class=\"ds-mark ds-br\"></span><span class=\"ds-reg\"></span></div></div>",
-      "css": ".ds-sheet-wrap { padding: 40px; background: var(--paper, #fff); } .ds-photo { aspect-ratio: 4 / 3; background: var(--paper-2, #f2f3f3); } .ds-marks { position: relative; } .ds-mark { position: absolute; width: 22px; height: 22px; pointer-events: none; } .ds-mark::before, .ds-mark::after { content: \"\"; position: absolute; background: var(--ink, #2e3133); } .ds-mark::before { width: 14px; height: 1px; } .ds-mark::after { width: 1px; height: 14px; } .ds-tl { top: -22px; left: -22px; } .ds-tl::before { bottom: 0; left: 0; } .ds-tl::after { right: 0; top: 0; } .ds-tr { top: -22px; right: -22px; } .ds-tr::before { bottom: 0; right: 0; } .ds-tr::after { left: 0; top: 0; } .ds-bl { bottom: -22px; left: -22px; } .ds-bl::before { top: 0; left: 0; } .ds-bl::after { right: 0; bottom: 0; } .ds-br { bottom: -22px; right: -22px; } .ds-br::before { top: 0; right: 0; } .ds-br::after { left: 0; bottom: 0; } .ds-reg { position: absolute; top: -26px; left: 50%; width: 18px; height: 18px; margin-left: -9px; border: 1px solid var(--ink, #2e3133); border-radius: 50%; } .ds-reg::before, .ds-reg::after { content: \"\"; position: absolute; background: var(--ink, #2e3133); } .ds-reg::before { left: -6px; right: -6px; top: 50%; height: 1px; } .ds-reg::after { top: -6px; bottom: -6px; left: 50%; width: 1px; }"
+      "name": "Produkt-Untermenü",
+      "kind": "nav",
+      "refersTo": "submenu-panel",
+      "description": "Desktop-Dropdown: weißes 24px-Panel mit Vorschaubildern, Meta in Schiefer und Alle-Produkte-Feld; mobil Akkordeon.",
+      "html": "<div class=\"ds-sub\"><a class=\"ds-sub-item\" href=\"#\"><span class=\"ds-sub-img\"></span><span><strong>Fahrzeugpflege Professionell</strong><small>11 Produkte, 10 l bis 1.000-l-IBC</small></span></a><a class=\"ds-sub-item\" href=\"#\"><span class=\"ds-sub-img\"></span><span><strong>Industriereiniger</strong><small>4 Produkte, 10 l bis 1.000-l-IBC</small></span></a><a class=\"ds-sub-all\" href=\"#\">Alle Produkte <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a></div>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-sub{width:440px;padding:10px;background:var(--white);border-radius:24px;box-shadow:0 24px 60px -28px rgba(46,49,51,.45),0 0 0 1px rgba(46,49,51,.05);display:grid;gap:2px;} .ds-sub-item{display:grid;grid-template-columns:76px 1fr;gap:16px;align-items:center;padding:10px;border-radius:16px;color:var(--ink);text-decoration:none;transition:background-color .2s var(--ease);} .ds-sub-item:hover{background:var(--glanz);} .ds-sub-item:focus-visible,.ds-sub-all:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;} .ds-sub-img{width:76px;height:56px;border-radius:12px;background:var(--glanz);} .ds-sub-item strong{display:block;font-weight:650;line-height:1.3;} .ds-sub-item small{display:block;margin-top:3px;font-size:.875rem;color:var(--ink-2);font-variant-numeric:tabular-nums;} .ds-sub-all{display:flex;align-items:center;justify-content:space-between;margin-top:8px;padding:14px 18px;border-radius:16px;background:var(--glanz);color:var(--ink);font-weight:650;text-decoration:none;} .ds-sub-all .ds-icon{width:18px;height:18px;color:var(--orange-ink);transition:transform .25s var(--ease);} .ds-sub-all:hover .ds-icon{transform:translateX(4px);}"
     },
     {
-      "name": "Stanzkontur mit Etikett-Hinweis",
+      "name": "Hero-Fläche mit Etikettenfläche",
       "kind": "custom",
-      "refersTo": "die-note",
-      "description": "Gestrichelte Orange-Kontur (2px, 10px Radius) über der Etikettenfläche, Hinweis im Slug-Stil.",
-      "html": "<div class=\"ds-die-demo\"><div class=\"ds-bottle\"><span class=\"ds-die\"></span><span class=\"ds-die-note\">Ihr Etikett</span></div></div>",
-      "css": ".ds-die-demo { padding: 24px 160px 24px 24px; background: var(--paper, #fff); font-family: \"Archivo\", system-ui, sans-serif; } .ds-bottle { position: relative; width: 90px; height: 240px; background: var(--paper-2, #f2f3f3); } .ds-die { position: absolute; left: 4%; right: 4%; top: 41%; bottom: 6%; border: 2px dashed var(--orange, #ec6e3e); border-radius: 10px; } .ds-die-note { position: absolute; left: 100%; top: 56%; margin-left: 14px; display: flex; align-items: center; gap: 10px; white-space: nowrap; font-size: 0.9375rem; font-weight: 650; font-stretch: 78%; letter-spacing: 0.01em; color: var(--ink, #2e3133); background: var(--paper, #fff); padding: 6px 12px 6px 0; } .ds-die-note::before { content: \"\"; width: 40px; height: 2px; background: var(--orange, #ec6e3e); margin-left: -14px; }"
+      "refersTo": "hero-panel",
+      "description": "Weiße Textfläche überlappt das Makrobild; freigestellte Flasche mit gestrichelter Stanzlinie und Pille Ihr Etikett.",
+      "html": "<div class=\"ds-hero\"><div class=\"ds-hero-img\"></div><div class=\"ds-hero-stage\"><div class=\"ds-hero-panel\"><h1>Private Label Reinigungsmittel</h1><p>Unter Ihrer Marke, abgefüllt in Ihr Wunschgebinde.</p></div><div class=\"ds-bottle\"><span class=\"ds-die\"></span><span class=\"ds-die-note\">Ihr Etikett</span></div></div></div>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-hero{padding-bottom:24px;} .ds-hero-img{height:220px;border-radius:0 0 32px 32px;background:linear-gradient(135deg,#9fb3bf,#dfe6ea);} .ds-hero-stage{display:flex;align-items:flex-end;justify-content:space-between;margin-top:-90px;padding:0 24px;} .ds-hero-panel{position:relative;z-index:2;max-width:360px;background:var(--white);border-radius:32px;padding:32px;box-shadow:0 30px 60px -36px rgba(46,49,51,.35);} .ds-hero-panel h1{margin:0;font-size:2.25rem;font-weight:720;line-height:.98;letter-spacing:-.035em;} .ds-hero-panel p{margin:16px 0 0;color:var(--ink-2);font-size:1.1875rem;line-height:1.55;} .ds-bottle{position:relative;width:70px;height:200px;margin-right:60px;border-radius:18px 18px 12px 12px;background:#f7f9fa;filter:drop-shadow(0 30px 28px rgba(46,49,51,.32));} .ds-die{position:absolute;left:0;right:0;top:41%;bottom:3%;border:2px dashed var(--orange);border-radius:14px;} .ds-die-note{position:absolute;right:100%;top:58%;margin-right:14px;display:flex;align-items:center;gap:10px;flex-direction:row-reverse;white-space:nowrap;background:var(--white);padding:8px 16px;border-radius:999px;font-size:1rem;font-weight:650;box-shadow:0 10px 24px -14px rgba(46,49,51,.45);} .ds-die-note::before{content:\"\";width:34px;height:2px;background:var(--orange);margin-right:-30px;}"
     },
     {
-      "name": "Farbkontrollstreifen",
+      "name": "Schritte mit Tropfen",
       "kind": "custom",
-      "description": "Acht 22px-Felder: vier Orange-, vier Graustufen. Rein dekorativ.",
-      "html": "<div class=\"ds-colorbar\" aria-hidden=\"true\"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>",
-      "css": ".ds-colorbar { display: flex; } .ds-colorbar i { width: 22px; height: 22px; } .ds-colorbar i:nth-child(1) { background: #ec6e3e; } .ds-colorbar i:nth-child(2) { background: #f19b78; } .ds-colorbar i:nth-child(3) { background: #f7c8b4; } .ds-colorbar i:nth-child(4) { background: #fbe4da; } .ds-colorbar i:nth-child(5) { background: #2e3133; } .ds-colorbar i:nth-child(6) { background: #6d7174; } .ds-colorbar i:nth-child(7) { background: #abaeb0; } .ds-colorbar i:nth-child(8) { background: #dcdedf; }"
+      "refersTo": "step-drop",
+      "description": "64px-Kreise mit orangem Rand und Nummer innen, Füllstand steigt mit dem Schritt, auf einer 2px-Linie.",
+      "html": "<ol class=\"ds-steps\"><li><span class=\"ds-drop\" style=\"--f:.2\"><b>1</b></span>Anfrage</li><li><span class=\"ds-drop\" style=\"--f:.55\"><b>2</b></span>Angebot und Muster</li><li><span class=\"ds-drop ds-drop-full\" style=\"--f:1\"><b>3</b></span>Herstellung</li></ol>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-steps{list-style:none;margin:0;padding:24px;display:grid;grid-template-columns:repeat(3,1fr);gap:32px;position:relative;background:var(--glanz);border-radius:20px;font-weight:720;font-size:1.25rem;letter-spacing:-.02em;} .ds-steps::before{content:\"\";position:absolute;top:55px;left:56px;right:56px;height:2px;background:var(--glanz-2);} .ds-steps li{position:relative;} .ds-drop{position:relative;display:block;width:64px;height:64px;border-radius:50%;border:2px solid var(--orange);background:var(--white);overflow:hidden;margin-bottom:20px;} .ds-drop b{position:relative;z-index:1;display:grid;place-items:center;height:100%;font-weight:700;font-size:1.375rem;color:var(--ink);} .ds-drop-full b{color:var(--on-orange);} .ds-drop::after{content:\"\";position:absolute;inset:0;background:var(--orange);clip-path:inset(calc((1 - var(--f,1)) * 100%) 0 0 0);}"
     },
     {
-      "name": "Ablauf-Feld",
+      "name": "Gebinde-Kreise",
       "kind": "custom",
-      "refersTo": "process-field",
-      "description": "Die einzige Orangefläche: quadratische Schrittmarken, gestrichelte Trenner, Druckschwarz voll deckend.",
-      "html": "<ol class=\"ds-steps\"><li><h3>Anfrage</h3><p>Sie nennen uns Produkt, Menge und Wünsche.</p></li><li><h3>Angebot und Muster</h3><p>Angebot und kostenlose Muster.</p></li><li><h3>Herstellung</h3><p>Lieferung nach 6 bis 8 Wochen.</p></li></ol>",
-      "css": ".ds-steps { list-style: none; margin: 0; padding: 40px; display: grid; grid-template-columns: repeat(3, 1fr); counter-reset: step; background: var(--orange, #ec6e3e); color: var(--on-orange, #1f2223); font-family: \"Archivo\", system-ui, sans-serif; } .ds-steps li { counter-increment: step; padding: 6px 24px 6px 0; } .ds-steps li + li { padding-left: 24px; border-left: 2px dashed rgba(31, 34, 35, 0.45); } .ds-steps li::before { content: counter(step); display: block; font-weight: 700; font-variant-numeric: tabular-nums; margin-bottom: 16px; width: 34px; height: 34px; line-height: 32px; text-align: center; border: 1.5px solid var(--on-orange, #1f2223); } .ds-steps h3 { margin: 0; font-size: 1.375rem; font-weight: 680; letter-spacing: -0.015em; } .ds-steps p { margin: 10px 0 0; }"
+      "refersTo": "step-drop",
+      "description": "Signatur: Kreise wachsen mit dem Gebinde und füllen sich beim Hineinscrollen nacheinander.",
+      "html": "<ul class=\"ds-drops\"><li style=\"--s:.16\"><span class=\"ds-ball\"></span><strong>10 ml bis 1 l</strong><span>Flaschen</span></li><li style=\"--s:.34\"><span class=\"ds-ball\"></span><strong>5 l bis 25 l</strong><span>Kanister</span></li><li style=\"--s:.62\"><span class=\"ds-ball\"></span><strong>200 l</strong><span>Fass</span></li><li style=\"--s:1\"><span class=\"ds-ball\"></span><strong>1.000 l</strong><span>IBC</span></li></ul>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-drops{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1.1fr 1.35fr 1.8fr;gap:16px;align-items:end;} .ds-drops li{display:flex;flex-direction:column;} .ds-ball{position:relative;display:block;width:calc(100% * var(--s));min-width:34px;aspect-ratio:1;border-radius:50%;border:2px solid var(--orange);overflow:hidden;margin-bottom:16px;} .ds-ball::after{content:\"\";position:absolute;inset:0;background:var(--orange);clip-path:inset(100% 0 0 0);transition:clip-path 1.1s var(--ease);} .ds-drops:hover .ds-ball::after{clip-path:inset(0);} .ds-drops li:nth-child(2) .ds-ball::after{transition-delay:.25s;} .ds-drops li:nth-child(3) .ds-ball::after{transition-delay:.5s;} .ds-drops li:nth-child(4) .ds-ball::after{transition-delay:.75s;} .ds-drops strong{font-size:1.5rem;font-weight:700;line-height:1.05;letter-spacing:-.03em;font-variant-numeric:tabular-nums;} .ds-drops li span:last-child{margin-top:6px;color:var(--ink-2);}"
     },
     {
-      "name": "Gebinde-Lineal",
-      "kind": "custom",
-      "description": "Lineal mit großen und kleinen Teilstrichen; jedes Gebinde beginnt mit einer orangen Marke.",
-      "html": "<div class=\"ds-ruler\"><div><strong>10 ml bis 1 l</strong><span>Flaschen und Sprüher</span></div><div><strong>5 l bis 25 l</strong><span>Kanister</span></div><div><strong>200 l</strong><span>Fass</span></div><div><strong>1.000 l</strong><span>IBC-Container</span></div></div>",
-      "css": ".ds-ruler { display: grid; grid-template-columns: 1fr 1fr 0.8fr 0.9fr; padding-top: 44px; font-family: \"Archivo\", system-ui, sans-serif; color: var(--ink, #2e3133); background: linear-gradient(#2e3133, #2e3133) 0 0 / 100% 2px no-repeat, repeating-linear-gradient(90deg, #2e3133 0 1px, transparent 1px 100%) 0 2px / 80px 22px repeat-x, repeating-linear-gradient(90deg, #8a8f93 0 1px, transparent 1px 100%) 0 2px / 16px 10px repeat-x; } .ds-ruler > div { position: relative; padding-right: 20px; } .ds-ruler > div::before { content: \"\"; position: absolute; top: -44px; left: 0; width: 2px; height: 34px; background: var(--orange, #ec6e3e); } .ds-ruler strong { display: block; font-size: 1.75rem; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; } .ds-ruler span { display: block; margin-top: 8px; color: var(--ink-2, #565b5f); }"
+      "name": "Produktlinien-Karte mit Meta-Pille",
+      "kind": "card",
+      "refersTo": "meta-pill",
+      "description": "Ganze Karte als Link: Bild 20px, H3, Beschreibung, weiße Meta-Pille; Hover Bildzoom und Titel in Orange-Tinte.",
+      "html": "<div class=\"ds-glanz\"><a class=\"ds-line\" href=\"#\"><div class=\"ds-line-img\"><div></div></div><h3>Industriereiniger</h3><p>Werkstattbodenreiniger und Multireiniger für Betrieb und Halle.</p><span class=\"ds-meta\">4 Produkte, 10 l bis 1.000-l-IBC</span></a></div>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-glanz{background:var(--glanz);padding:24px;} .ds-line{display:block;max-width:360px;color:var(--ink);text-decoration:none;} .ds-line-img{aspect-ratio:16/9;border-radius:20px;overflow:hidden;margin-bottom:20px;} .ds-line-img div{width:100%;height:100%;background:linear-gradient(135deg,#8fa1ab,#cfd8dd);transition:transform .8s var(--ease);} .ds-line:hover .ds-line-img div{transform:scale(1.04);} .ds-line h3{margin:0;font-size:1.5rem;font-weight:720;line-height:1.12;letter-spacing:-.02em;transition:color .25s var(--ease);} .ds-line:hover h3{color:var(--orange-ink);} .ds-line p{margin:8px 0 0;color:var(--ink-2);} .ds-meta{display:inline-block;margin-top:14px;padding:6px 14px;border-radius:999px;background:var(--white);font-size:.9375rem;font-weight:600;font-variant-numeric:tabular-nums;} .ds-line:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;border-radius:20px;}"
     },
     {
-      "name": "Produktindex-Zeile",
+      "name": "FAQ-Eintrag",
       "kind": "custom",
-      "description": "Zeile als Link unter 2px-Oberkante: Bild, Name, Meta im Slug-Stil, Pfeil; Hover färbt den Namen.",
-      "html": "<ul class=\"ds-lines\"><li><a class=\"ds-line\" href=\"#\"><span class=\"ds-line-img\"></span><span class=\"ds-line-name\">Industriereiniger</span><span class=\"ds-line-meta\">4 Produkte<br>10 l bis 1.000-l-IBC</span><svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a></li></ul>",
-      "css": ".ds-lines { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink, #2e3133); font-family: \"Archivo\", system-ui, sans-serif; } .ds-lines li { border-bottom: 1px solid #c9cdd0; } .ds-line { display: grid; grid-template-columns: 120px 1fr 140px 26px; align-items: center; gap: 24px; padding: 22px 0; color: var(--ink, #2e3133); text-decoration: none; } .ds-line-img { display: block; aspect-ratio: 3 / 2; background: #e6e8e9; } .ds-line-name { font-size: 1.5rem; font-weight: 700; letter-spacing: -0.025em; line-height: 1.12; } .ds-line-meta { font-size: 0.9375rem; font-weight: 600; font-stretch: 78%; letter-spacing: 0.01em; font-variant-numeric: tabular-nums; } .ds-line .ds-icon { width: 26px; height: 26px; color: var(--orange-ink, #b84a24); transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1); } .ds-line:hover .ds-line-name { color: var(--orange-ink, #b84a24); } .ds-line:hover .ds-icon { transform: translateX(6px); } .ds-line:focus-visible { outline: 2px solid var(--orange-ink, #b84a24); outline-offset: 3px; }"
+      "refersTo": "faq-item",
+      "description": "Weiße details-Karte auf Glanzgrau mit Plus-Kreis, der orange wird und sich dreht.",
+      "html": "<div class=\"ds-glanz\"><details class=\"ds-faq\" open><summary>Bekomme ich vorab Muster?<span class=\"ds-plus\"><svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z\"/></svg></span></summary><p>Ja. Nach Ihrer Anfrage erhalten Sie kostenlose Muster.</p></details></div>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-glanz{background:var(--glanz);padding:24px;} .ds-faq{background:var(--white);border-radius:20px;} .ds-faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:22px 22px 22px 28px;font-weight:650;font-size:1.1875rem;} .ds-faq summary::-webkit-details-marker{display:none;} .ds-faq summary:focus-visible{outline:2px solid var(--orange-ink);outline-offset:3px;border-radius:20px;} .ds-plus{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--glanz);transition:background-color .25s var(--ease),transform .3s var(--ease);} .ds-plus .ds-icon{width:20px;height:20px;} .ds-faq summary:hover .ds-plus{background:var(--orange);} .ds-faq[open] .ds-plus{transform:rotate(45deg);background:var(--orange);} .ds-faq p{margin:0;padding:0 72px 26px 28px;color:var(--ink-2);}"
+    },
+    {
+      "name": "Abschlussfläche",
+      "kind": "card",
+      "refersTo": "close-panel",
+      "description": "Große orange Fläche mit 32px Radius, Closing-H2 und Ink-Button.",
+      "html": "<div class=\"ds-close\"><h2>Lassen Sie uns über Ihr Produkt sprechen</h2><div><p>Sie bekommen ein Angebot und kostenlose Muster.</p><a class=\"ds-btn-ink\" href=\"#\">Anfrage stellen <svg class=\"ds-icon\" viewBox=\"0 0 256 256\" fill=\"currentColor\" aria-hidden=\"true\"><path d=\"M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z\"/></svg></a></div></div>",
+      "css": ":host{--ink:#2e3133;--ink-2:#545a5e;--white:#fff;--glanz:#eef2f4;--glanz-2:#dfe6ea;--orange:#ec6e3e;--orange-ink:#b84a24;--on-orange:#1f2223;--ease:cubic-bezier(0.16,1,0.3,1);font-family:Archivo,system-ui,sans-serif;color:var(--ink);} .ds-close{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:end;background:var(--orange);color:var(--on-orange);border-radius:32px;padding:48px;} .ds-close h2{margin:0;font-size:2.5rem;font-weight:720;line-height:1;letter-spacing:-.03em;max-width:13ch;} .ds-close p{margin:0;font-size:1.25rem;} .ds-btn-ink{display:inline-flex;align-items:center;gap:12px;margin-top:26px;min-height:60px;padding:0 30px;border-radius:999px;background:var(--ink);color:#fff;font:650 1.125rem/1 Archivo,system-ui,sans-serif;text-decoration:none;transition:background-color .25s var(--ease);} .ds-btn-ink:hover{background:#151718;} .ds-btn-ink:focus-visible{outline:2px solid var(--ink);outline-offset:3px;} .ds-icon{width:18px;height:18px;}"
     }
   ],
   "narrative": {
-    "northStar": "Der Druckbogen zur Freigabe",
-    "overview": "**Creative North Star: \"Der Druckbogen zur Freigabe\"**\n\nDie Seite liest sich wie ein Andruck, den die Druckerei zur Etikettenfreigabe schickt: kühles Papierweiß, Anthrazit als Druckschwarz, Logo-Orange als Vollton und als gestrichelte Stanzkontur. Druckmarken tragen die Welt: Schnittmarken außen an den Bildecken, ein Passkreuz pro Bogen, ein Farbkontrollstreifen, ein Lineal mit Teilstrichen für die Gebinde. Die Botschaft dahinter ist die des Produkts: NiKu füllt ab, der Kunde liefert die Druckdaten für sein Etikett.\n\nDie Dichte ist ruhig und technisch. Große Sektionsabstände (bis 140px), eine einzige Schriftfamilie in zwei Breiten, keine Ecken außer der Stanzkontur. Gliederung entsteht durch Linien (Haarlinie, 2px-Oberkante, gestrichelte Trenner) und durch Flächenwechsel Weiß, Hellgrau, ein einziges Orangefeld für den Ablauf und das dunkle Fußband. Der Abschluss ist kein Farbblock, sondern der letzte Bogen: ein gerahmtes weißes Blatt mit Schnittmarken und Passkreuz. Bewegung gibt es einmal beim Laden, wenn Marken und Stanzkontur sich einzeichnen; danach nur Hover.\n\nAbgelehnt wurden laut Nutzer die Vorversion \"bildstark und modern\" (Eyebrows über jeder Sektion, Verlaufs-Fotokacheln, nummerierte Kicker, Glasleiste) sowie die Laborstock-Herstellerseite und die dunkle Detailing-Hochglanzseite.",
+    "northStar": "Abperleffekt",
+    "overview": "Die Seite zeigt zuerst, was die Produkte leisten: Schaum, Wasserperlen, sauberer Glanz in großen Makrobildern. Erst danach kommen Fakten. Die Welt ist hell, luftig und weich: reines Weiß und ein kühles Glanzgrau als Flächen, Anthrazit als Schrift, Logo-Orange als Farbe für alles, was man drücken, füllen oder abschließen kann. Rundungen sind durchgehend weich, Kreise sind das wiederkehrende Tropfen-Motiv.\n\nDie Dichte ist niedrig. Sektionen atmen mit großem Abstand, Überschriften sind kräftig und eng, Fließtext ist groß (1.125rem) und ruhig in Schiefer. Bilder tragen die Stimmung, Text trägt die Fakten. Das Produkt selbst (die freigestellte Flasche mit gestrichelter Etikettenfläche) verbindet beides: Hier steht später Ihre Marke.\n\nAbgelehnt sind: Tabellenseite und Datenblatt-Optik, Laborstock, dunkle Hochglanz-Detailingseite, Eyebrows über Überschriften, Verlaufs-Overlays auf Fotos, Tabellen als Gestaltungsmittel.",
     "keyCharacteristics": [
-      "Papierweiß und Hellgrau als Flächen, Anthrazit als Schrift; Orange als Vollton genau einmal (Ablauf) und sonst als Button, Stanzkontur, Marke und Linie.",
-      "Druckmarken als Ordnungsmittel: Schnittmarken, Passkreuz, Farbkontrollstreifen, Lineal.",
-      "Radius 0 überall; einzige Rundung ist die Stanzkontur um die Etikettenfläche (10px).",
-      "Archivo variabel in Normalbreite und Condensed (78%); Condensed nur für kurze Bogenbeschriftungen.",
-      "Orangefarbener Button mit dunkler Schrift; auf Orange und auf Weiß im Abschluss wird der Button anthrazit.",
-      "Keine Eyebrows, keine Kicker über Überschriften: jede Sektion beginnt direkt mit ihrer H2."
+      "Helles Weiß und Glanzgrau im Sektionswechsel, keine dunklen Flächen außer dem Ink-Button",
+      "Archivo (variabel) für alle Texte, Gewichte zwischen den Stufen (450, 550, 650, 720)",
+      "Logo-Orange als Fläche, Pille, Tropfen und Stanzlinie; orange Schrift immer in Orange-Tinte",
+      "Weiche Radien: 20px Bilder und Karten, 32px große Flächen, Pillen für Buttons und Chips",
+      "Kreise als Tropfen-Motiv, die sich beim Hineinscrollen füllen",
+      "Makrobilder groß, ohne Overlay; Text sitzt auf weißen Flächen neben oder über den Bildern"
     ],
     "rules": [
       {
-        "name": "The Ein-Vollton Rule",
-        "body": "Orange als große Fläche gibt es genau einmal pro Seite: das Ablauf-Feld. Alle anderen Sektionen sind Papier oder Hellgrau, der Footer Night.",
-        "section": "colors"
-      },
-      {
-        "name": "The Dunkel-auf-Orange Rule",
-        "body": "Auf Orange steht immer Druckschwarz (on-orange), voll deckend. Weiß auf Orange erreicht nur 3.1:1 und kommt nicht vor.",
-        "section": "colors"
-      },
-      {
         "name": "The Tinte-für-Text Rule",
-        "body": "Orangefarbener Text und Icons auf hellem Grund sind immer Orange-Tinte. Logo-Orange erscheint auf Hell nur als Fläche, Linie oder Marke ohne Text.",
+        "body": "Orangefarbener Text und Icons auf Hell sind immer Orange-Tinte. Logo-Orange erscheint nur als Fläche, Rand oder Linie, nie als Schrift auf Weiß.",
         "section": "colors"
       },
       {
-        "name": "The Etikettenfarben Rule",
-        "body": "Die Produktfarben der Etiketten (z. B. Lila, Blau) gehören zu den Produkten und erscheinen nur in Produktfotos, nie als Website-Farbe.",
+        "name": "The Ein-Akzent Rule",
+        "body": "Orange ist die einzige Farbe neben den Neutralen. Die Etikettenfarben der Produkte (Lila, Blau) erscheinen nur in Produktfotos, nie als Website-Farbe.",
         "section": "colors"
       },
       {
-        "name": "The Zwei-Breiten Rule",
-        "body": "Condensed (78%) ist nur für kurze, technische Bogenbeschriftungen da: Faktenzeile, Stanzhinweis, Konditionsbegriffe, Produkt-Meta. Nie für Überschriften, Fließtext oder Buttons.",
-        "section": "typography"
+        "name": "The Weiß-auf-Glanz Rule",
+        "body": "Auf Glanzgrau liegen Karten und Pillen in Weiß; auf Weiß liegen Platzhalter und Hover in Glanzgrau. Beide Flächen tauschen die Rollen, es kommt keine dritte hinzu.",
+        "section": "colors"
       },
       {
         "name": "The Enge-Überschrift Rule",
-        "body": "Überschriften laufen negativ (H1 -0.035em, H2 -0.03em, H3 -0.015em) mit `text-wrap: balance`; Fließtext bleibt bei normaler Laufweite mit `text-wrap: pretty`.",
+        "body": "Überschriften laufen negativ (H1 -0.035em, H2 -0.03em, H3 -0.02em) mit `text-wrap: balance`; Fließtext bleibt bei normaler Laufweite mit `text-wrap: pretty`.",
         "section": "typography"
       },
       {
         "name": "The Tabellarische-Zahl Rule",
-        "body": "Jede Zahl, die ein Faktum trägt (Faktenzeile, Gebinde, Schrittnummer, Produkt-Meta, Telefonnummer), steht in tabellarischen Ziffern.",
+        "body": "Zahlen, die ein Faktum tragen (Gebinde, Produkt-Meta, Untermenü-Angaben), stehen in tabellarischen Ziffern. Mengen und Einheiten bleiben mit geschütztem Leerzeichen zusammen.",
         "section": "typography"
       },
       {
-        "name": "The Beschnittzugabe Rule",
-        "body": "Jedes Bild mit Schnittmarken hält rundum den Bleed-Abstand (22px), damit die Marken außerhalb der Bildkante Platz haben. Auch der Abschlussbogen sitzt 22px eingerückt.",
+        "name": "The Keine-Eyebrow Rule",
+        "body": "Über Überschriften steht nichts: keine Kicker, keine Nummern, keine Versal-Labels. Die H2 eröffnet die Sektion selbst.",
+        "section": "typography"
+      },
+      {
+        "name": "The Weiß-trägt-Text Rule",
+        "body": "Text liegt nie direkt auf einem Foto. Wo Bild und Text sich treffen, steht der Text auf einer weißen Fläche, die das Bild überlappt.",
         "section": "layout"
       },
       {
-        "name": "The Papier-liegt-flach Rule",
-        "body": "Flächen, Rahmen und Buttons haben keine Schatten. Eine Gruppe bekommt eine Linie oder eine Fläche, nie eine Karte mit Schatten.",
+        "name": "The Schweben-nur-über-Bild Rule",
+        "body": "Schatten bekommt nur, was über einem Foto oder über dem Inhalt schwebt (Hero-Fläche, Flasche, Etikett-Hinweis, Untermenü). Karten in einer Sektion bleiben schattenlos.",
         "section": "elevation"
       },
       {
-        "name": "The Scharfe-Kante Rule",
-        "body": "Radius 0 für jede Fläche. Die 10px-Rundung gehört ausschließlich der Stanzkontur.",
+        "name": "The Weich-nach-Größe Rule",
+        "body": "Je größer die Fläche, desto größer der Radius (12 / 16 / 20 / 24 / 32px). Bedienelemente sind immer Pillen.",
+        "section": "shapes"
+      },
+      {
+        "name": "The Tropfen-füllt-sich Rule",
+        "body": "Ein Kreis mit orangem Rand zeigt eine Menge oder einen Fortschritt durch seinen Füllstand. Er ist nie nur Dekoration.",
         "section": "shapes"
       }
     ],
     "dos": [
-      "Do setze Primärbuttons in Logo-Orange mit Druckschwarz (on-orange) und wechsle auf Orange- und Abschlussflächen zum Ink-Button.",
-      "Do halte jede Ecke scharf (Radius 0); 10px nur für die Stanzkontur.",
-      "Do rahme Bogenbilder mit Schnittmarken und 22px Bleed; setze höchstens ein Passkreuz pro Bogen.",
-      "Do nutze Condensed (78%) nur für kurze Bogenbeschriftungen und tabellarische Ziffern für jede Faktenzahl.",
-      "Do setze orangen Text und orange Icons auf Hell in Orange-Tinte (#b84a24).",
-      "Do gliedere mit Haarlinien, 2px-Oberkanten und gestrichelten Trennern statt mit Karten."
+      "**Do** Sektionen zwischen Weiß und Glanzgrau wechseln lassen und Karten jeweils in der anderen Fläche setzen.",
+      "**Do** Logo-Orange als Fläche, Rand, Tropfen und Stanzlinie einsetzen und orange Schrift immer in Orange-Tinte setzen.",
+      "**Do** Buttons als Pillen mit Pfeil bauen: Primary orange, auf oranger Fläche Ink.",
+      "**Do** Radien nach Größe wählen: 20px Bilder und Karten, 32px große Flächen und vollbreite Bilder.",
+      "**Do** Mengen, Schritte und Fortschritte als Kreise mit orangem Rand zeigen, die sich von unten füllen.",
+      "**Do** Makrobilder groß und ohne Overlay zeigen; Text auf weißen Flächen, die das Bild überlappen.",
+      "**Do** die freigestellte Flasche mit gestrichelter Etikettenfläche nutzen, wo es um die eigene Marke geht.",
+      "**Do** Sektionsköpfe gestapelt setzen: H2, darunter Intro in Schiefer."
     ],
     "donts": [
-      "Don't setze Eyebrows, Kicker oder nummerierte Überzeilen über Überschriften (vom Nutzer als KI-Template-Merkmal verworfen).",
-      "Don't nutze Farbverläufe als Fläche oder Glasflächen mit Unschärfe.",
-      "Don't setze weiße Schrift auf Logo-Orange (3.1:1) oder Text in Logo-Orange auf Weiß.",
-      "Don't füge eine zweite Orangefläche neben dem Ablauf hinzu.",
-      "Don't runde Buttons, Bilder oder Schrittmarken ab; keine Kreismarken außer dem Passkreuz.",
-      "Don't füge eine Serifenschrift oder zweite Familie hinzu.",
-      "Don't übernimm Etikettenfarben einzelner Produkte als Website-Farben."
+      "**Don't** Eyebrows, Kicker, Nummern oder Versal-Labels über Überschriften setzen.",
+      "**Don't** Verlaufs-Overlays auf Fotos legen oder Text direkt auf Bilder setzen.",
+      "**Don't** Tabellen als Gestaltungsmittel oder Datenblatt-Optik verwenden.",
+      "**Don't** dunkle Sektionen oder eine Hochglanz-Detailing-Optik einführen.",
+      "**Don't** Logo-Orange als Schriftfarbe auf Weiß oder Glanzgrau verwenden.",
+      "**Don't** scharfe Ecken oder eckige Buttons setzen.",
+      "**Don't** Karten in einer Sektion mit Schatten versehen.",
+      "**Don't** Etikettenfarben der Produkte (Lila, Blau) als Website-Farben übernehmen.",
+      "**Don't** Elemente aus der archivierten Druckbogen-Variante übernehmen (Schnittmarken, Passkreuz, Farbkontrollstreifen, Radius 0)."
     ]
   }
 }

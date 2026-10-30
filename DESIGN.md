@@ -1,62 +1,57 @@
 ---
 name: NiKu Chemie
-description: "Private-Label-Hersteller aus Veitsbronn, gesetzt als Druckbogen zur Etikettenfreigabe: kühles Papierweiß, Anthrazit als Druckschwarz, Logo-Orange als Vollton und Stanzkontur."
+description: "Private-Label-Hersteller aus Veitsbronn, gesetzt als Abperleffekt: helles Weiß und kühles Glanzgrau, große Makrobilder von Schaum und Wasserperlen, weiche Formen und Logo-Orange als Tropfen, Pille und Abschlussfläche."
 colors:
   ink: "#2e3133"
-  ink-2: "#565b5f"
-  ink-3: "#8a8f93"
-  ink-deep: "#111314"
-  paper: "#ffffff"
-  paper-2: "#f2f3f3"
-  product-ground: "#e6e8e9"
-  rule: "#d9dcde"
-  rule-strong: "#c9cdd0"
+  ink-2: "#545a5e"
+  ink-deep: "#151718"
+  white: "#ffffff"
+  glanz: "#eef2f4"
+  glanz-2: "#dfe6ea"
   orange: "#ec6e3e"
   orange-ink: "#b84a24"
   on-orange: "#1f2223"
-  night: "#24272a"
-  night-muted: "#b9bdc0"
 typography:
   display:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "clamp(2.375rem, 1.4rem + 3vw, 4rem)"
+    fontSize: "clamp(2.5rem, 1.5rem + 3vw, 4.125rem)"
     fontWeight: 720
-    lineHeight: 1.02
+    lineHeight: 0.98
     letterSpacing: "-0.035em"
   closing:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "clamp(2.25rem, 1.3rem + 3vw, 4.25rem)"
-    fontWeight: 700
-    lineHeight: 1.06
+    fontSize: "clamp(2.25rem, 1.4rem + 3vw, 4.25rem)"
+    fontWeight: 720
+    lineHeight: 1
     letterSpacing: "-0.03em"
   headline:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "clamp(2rem, 1.3rem + 2.2vw, 3.25rem)"
-    fontWeight: 700
-    lineHeight: 1.06
+    fontSize: "clamp(2.125rem, 1.4rem + 2.4vw, 3.5rem)"
+    fontWeight: 720
+    lineHeight: 1.02
     letterSpacing: "-0.03em"
-  title-lg:
-    fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "clamp(1.625rem, 1.2rem + 1vw, 2.125rem)"
-    fontWeight: 680
-    lineHeight: 1.2
-    letterSpacing: "-0.025em"
   title:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "1.375rem"
-    fontWeight: 680
-    lineHeight: 1.2
-    letterSpacing: "-0.015em"
+    fontSize: "clamp(1.375rem, 1.15rem + 0.6vw, 1.75rem)"
+    fontWeight: 720
+    lineHeight: 1.12
+    letterSpacing: "-0.02em"
+  statement:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "clamp(1.75rem, 1.2rem + 1.9vw, 2.875rem)"
+    fontWeight: 450
+    lineHeight: 1.26
+    letterSpacing: "-0.02em"
   figure:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "clamp(1.625rem, 1.1rem + 1.3vw, 2.5rem)"
+    fontSize: "clamp(1.5rem, 1.1rem + 1.2vw, 2.25rem)"
     fontWeight: 700
     lineHeight: 1.05
     letterSpacing: "-0.03em"
     fontFeature: "tabular-nums"
   lead:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "clamp(1.125rem, 1.05rem + 0.35vw, 1.3125rem)"
+    fontSize: "clamp(1.1875rem, 1.1rem + 0.35vw, 1.375rem)"
     fontWeight: 400
     lineHeight: 1.55
   intro:
@@ -66,69 +61,79 @@ typography:
     lineHeight: 1.55
   body:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "1.0625rem"
+    fontSize: "1.125rem"
     fontWeight: 400
-    lineHeight: 1.6
+    lineHeight: 1.55
+  question:
+    fontFamily: "Archivo, system-ui, sans-serif"
+    fontSize: "clamp(1.125rem, 1.05rem + 0.3vw, 1.25rem)"
+    fontWeight: 650
+    lineHeight: 1.55
   label:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "1rem"
+    fontSize: "1.0625rem"
     fontWeight: 650
     lineHeight: 1
   nav:
     fontFamily: "Archivo, system-ui, sans-serif"
-    fontSize: "0.975rem"
+    fontSize: "1rem"
     fontWeight: 550
-    lineHeight: 1.6
-  slug:
+    lineHeight: 1.55
+  meta:
     fontFamily: "Archivo, system-ui, sans-serif"
     fontSize: "0.9375rem"
-    fontWeight: 650
-    lineHeight: 1.6
-    letterSpacing: "0.01em"
-    fontVariation: "\"wdth\" 78"
+    fontWeight: 600
+    lineHeight: 1.55
     fontFeature: "tabular-nums"
 rounded:
-  none: "0"
-  die: "10px"
+  focus: "6px"
+  thumb: "12px"
+  die: "14px"
+  item: "16px"
+  r: "20px"
+  panel-sm: "24px"
+  r-lg: "32px"
+  pill: "999px"
 spacing:
   wrap: "1280px"
   gutter: "clamp(16px, 4vw, 40px)"
-  section: "clamp(80px, 10vw, 140px)"
-  header: "76px"
-  bleed: "22px"
-  block-gap: "clamp(48px, 6vw, 72px)"
+  section: "clamp(80px, 10vw, 136px)"
+  header: "72px"
+  inset: "clamp(0px, 1.6vw, 24px)"
+  head-gap: "clamp(40px, 5vw, 64px)"
+  grid-gap: "clamp(24px, 3vw, 40px)"
   split-gap: "clamp(40px, 6vw, 96px)"
 components:
   button-primary:
     backgroundColor: "{colors.orange}"
     textColor: "{colors.on-orange}"
     typography: "{typography.label}"
-    rounded: "{rounded.none}"
-    padding: "0 22px"
+    rounded: "{rounded.pill}"
+    padding: "0 24px"
     height: "48px"
   button-primary-hover:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
+    textColor: "{colors.white}"
   button-primary-lg:
     backgroundColor: "{colors.orange}"
     textColor: "{colors.on-orange}"
-    rounded: "{rounded.none}"
-    padding: "0 28px"
-    height: "58px"
+    rounded: "{rounded.pill}"
+    padding: "0 30px"
+    height: "60px"
   button-ink:
     backgroundColor: "{colors.ink}"
-    textColor: "{colors.paper}"
+    textColor: "{colors.white}"
     typography: "{typography.label}"
-    rounded: "{rounded.none}"
-    padding: "0 28px"
-    height: "58px"
+    rounded: "{rounded.pill}"
+    padding: "0 30px"
+    height: "60px"
   button-ink-hover:
     backgroundColor: "{colors.ink-deep}"
-    textColor: "{colors.paper}"
+    textColor: "{colors.white}"
   button-nav:
     backgroundColor: "{colors.orange}"
     textColor: "{colors.on-orange}"
-    rounded: "{rounded.none}"
+    rounded: "{rounded.pill}"
     padding: "0 20px"
     height: "44px"
   text-link:
@@ -136,232 +141,269 @@ components:
     typography: "{typography.label}"
   text-link-hover:
     textColor: "{colors.orange-ink}"
+  nav-link:
+    textColor: "{colors.ink}"
+    typography: "{typography.nav}"
+    rounded: "{rounded.pill}"
+    padding: "8px 14px"
+  nav-link-hover:
+    backgroundColor: "{colors.glanz}"
   site-header:
-    backgroundColor: "{colors.paper}"
+    backgroundColor: "{colors.white}"
     textColor: "{colors.ink}"
     height: "{spacing.header}"
-  die-note:
-    backgroundColor: "{colors.paper}"
+  submenu-panel:
+    backgroundColor: "{colors.white}"
+    rounded: "{rounded.panel-sm}"
+    padding: "10px"
+    width: "440px"
+  hero-panel:
+    backgroundColor: "{colors.white}"
     textColor: "{colors.ink}"
-    typography: "{typography.slug}"
-    padding: "6px 12px 6px 0"
-  process-field:
+    rounded: "{rounded.r-lg}"
+    padding: "clamp(28px, 4vw, 56px) clamp(24px, 4vw, 56px) clamp(28px, 3.5vw, 48px)"
+  die-note:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.pill}"
+    padding: "8px 16px"
+  step-drop:
+    backgroundColor: "{colors.orange}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.pill}"
+    size: "64px"
+  meta-pill:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink}"
+    typography: "{typography.meta}"
+    rounded: "{rounded.pill}"
+    padding: "6px 14px"
+  faq-item:
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink}"
+    typography: "{typography.question}"
+    rounded: "{rounded.r}"
+    padding: "22px 22px 22px 28px"
+  faq-plus:
+    backgroundColor: "{colors.glanz}"
+    textColor: "{colors.ink}"
+    rounded: "{rounded.pill}"
+    size: "40px"
+  faq-plus-open:
+    backgroundColor: "{colors.orange}"
+  close-panel:
     backgroundColor: "{colors.orange}"
     textColor: "{colors.on-orange}"
-    padding: "{spacing.section} 0"
-  step-marker:
-    textColor: "{colors.on-orange}"
-    rounded: "{rounded.none}"
-    size: "34px"
-  close-sheet:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.none}"
-    padding: "clamp(40px, 6vw, 88px) clamp(24px, 5vw, 80px)"
-  section-tint:
-    backgroundColor: "{colors.paper-2}"
-    textColor: "{colors.ink}"
+    rounded: "{rounded.r-lg}"
+    padding: "clamp(40px, 6vw, 88px)"
   site-footer:
-    backgroundColor: "{colors.night}"
-    textColor: "{colors.night-muted}"
+    backgroundColor: "{colors.white}"
+    textColor: "{colors.ink-2}"
 ---
 
 # Design System: NiKu Chemie
 
+Quelle: Startseite `index.html` mit `assets/css/site.css`, `assets/js/main.js` (Mobilmenü) und `assets/js/site.js` (Untermenü, Gebinde-Füllung). Alle Unterseiten bauen auf diesem System auf. Die verworfene Variante Druckbogen ist unter `archiv/druckbogen/` archiviert (eigenes Stylesheet `assets/css/styles.css`, noindex) und gilt nicht mehr.
+
 ## Overview
 
-**Creative North Star: "Der Druckbogen zur Freigabe"**
+**Creative North Star: "Abperleffekt"**
 
-Die Seite liest sich wie ein Andruck, den die Druckerei zur Etikettenfreigabe schickt: kühles Papierweiß, Anthrazit als Druckschwarz, Logo-Orange als Vollton und als gestrichelte Stanzkontur. Druckmarken tragen die Welt: Schnittmarken außen an den Bildecken, ein Passkreuz pro Bogen, ein Farbkontrollstreifen, ein Lineal mit Teilstrichen für die Gebinde. Die Botschaft dahinter ist die des Produkts: NiKu füllt ab, der Kunde liefert die Druckdaten für sein Etikett.
+Die Seite zeigt zuerst, was die Produkte leisten: Schaum, Wasserperlen, sauberer Glanz in großen Makrobildern. Erst danach kommen Fakten. Die Welt ist hell, luftig und weich: reines Weiß und ein kühles Glanzgrau als Flächen, Anthrazit als Schrift, Logo-Orange als Farbe für alles, was man drücken, füllen oder abschließen kann. Rundungen sind durchgehend weich, Kreise sind das wiederkehrende Tropfen-Motiv.
 
-Die Dichte ist ruhig und technisch. Große Sektionsabstände (bis 140px), eine einzige Schriftfamilie in zwei Breiten, keine Ecken außer der Stanzkontur. Gliederung entsteht durch Linien (Haarlinie, 2px-Oberkante, gestrichelte Trenner) und durch Flächenwechsel Weiß, Hellgrau, ein einziges Orangefeld für den Ablauf und das dunkle Fußband. Der Abschluss ist kein Farbblock, sondern der letzte Bogen: ein gerahmtes weißes Blatt mit Schnittmarken und Passkreuz. Bewegung gibt es einmal beim Laden, wenn Marken und Stanzkontur sich einzeichnen; danach nur Hover.
+Die Dichte ist niedrig. Sektionen atmen mit großem Abstand, Überschriften sind kräftig und eng, Fließtext ist groß (1.125rem) und ruhig in Schiefer. Bilder tragen die Stimmung, Text trägt die Fakten. Das Produkt selbst (die freigestellte Flasche mit gestrichelter Etikettenfläche) verbindet beides: Hier steht später Ihre Marke.
 
-Abgelehnt wurden laut Nutzer die Vorversion "bildstark und modern" (Eyebrows über jeder Sektion, Verlaufs-Fotokacheln, nummerierte Kicker, Glasleiste) sowie die Laborstock-Herstellerseite und die dunkle Detailing-Hochglanzseite.
+Abgelehnt sind: Tabellenseite und Datenblatt-Optik, Laborstock, dunkle Hochglanz-Detailingseite, Eyebrows über Überschriften, Verlaufs-Overlays auf Fotos, Tabellen als Gestaltungsmittel.
 
 **Key Characteristics:**
-- Papierweiß und Hellgrau als Flächen, Anthrazit als Schrift; Orange als Vollton genau einmal (Ablauf) und sonst als Button, Stanzkontur, Marke und Linie.
-- Druckmarken als Ordnungsmittel: Schnittmarken, Passkreuz, Farbkontrollstreifen, Lineal.
-- Radius 0 überall; einzige Rundung ist die Stanzkontur um die Etikettenfläche (10px).
-- Archivo variabel in Normalbreite und Condensed (78%); Condensed nur für kurze Bogenbeschriftungen.
-- Orangefarbener Button mit dunkler Schrift; auf Orange und auf Weiß im Abschluss wird der Button anthrazit.
-- Keine Eyebrows, keine Kicker über Überschriften: jede Sektion beginnt direkt mit ihrer H2.
+- Helles Weiß und Glanzgrau im Sektionswechsel, keine dunklen Flächen außer dem Ink-Button
+- Archivo (variabel) für alle Texte, Gewichte zwischen den Stufen (450, 550, 650, 720)
+- Logo-Orange als Fläche, Pille, Tropfen und Stanzlinie; orange Schrift immer in Orange-Tinte
+- Weiche Radien: 20px Bilder und Karten, 32px große Flächen, Pillen für Buttons und Chips
+- Kreise als Tropfen-Motiv, die sich beim Hineinscrollen füllen
+- Makrobilder groß, ohne Overlay; Text sitzt auf weißen Flächen neben oder über den Bildern
 
 ## Colors
 
-Kühles Papiergrau in vier Stufen, ein Druckschwarz und ein warmer Akzent in zwei Funktionen: Vollton und lesbare Textfarbe.
+Kühles Weiß-Grau mit genau einem warmen Akzent aus dem Logo.
 
 ### Primary
-- **Logo-Orange** (orange): Markenfarbe aus dem Logo. Füllung des Primärbuttons (mit dunkler Schrift), die eine Volltonfläche des Ablaufs, Stanzkontur, Hinweisstrich am Etikett, Lineal-Marken der Gebinde, Unterstriche von Navigation und Textlinks, Textauswahl, Linkhover und Fokusring im Footer (4.9:1 auf Night).
-- **Orange-Tinte** (orange-ink): Abgedunkelte Fassung für alles, was als Text oder Icon auf hellem Grund orange sein muss: Fließtextlinks, Fokusring, Pfeile, Icons der Punkteliste, FAQ-Plus, Hover-Farbe von Namen und Links, Eingabemarke. 5.2:1 auf Papier, 4.7:1 auf Hellgrau.
-- **Auf Orange** (on-orange): Druckschwarz auf Orange (5.2:1): Buttonschrift, Text, Schrittmarken, Trennlinien im Ablauf.
+- **Logo-Orange** (orange): Hauptbutton, Füllung der Tropfen (Schritte, Gebinde), Rand der Tropfen, gestrichelte Stanzlinie und Strich am Etikett-Hinweis, große Abschlussfläche, Unterstreichung im Lohnabfüllungs-Hinweis, Plus-Kreis im geöffneten FAQ, Textauswahl.
+- **Orange-Tinte** (orange-ink): jede orange Schrift und jedes orange Icon auf Hell: Textlinks im Fließtext, Pfeile in Textlinks, Hover-Farbe von Links und Produktlinien-Titeln, Fokusring, Cursor.
+- **Auf Orange** (on-orange): Schrift auf Logo-Orange (Buttons, Abschlussfläche, Zahl im voll gefüllten dritten Schritt).
 
 ### Neutral
-- **Anthrazit** (ink): Fließtext, Überschriften, Druckmarken (Schnittmarken, Passkreuz), Lineal, 2px-Oberkanten von Produktindex und FAQ, Fläche des Ink-Buttons, Skip-Link.
-- **Schiefer** (ink-2): Sekundärtext, Lead, Sektionseinleitungen, Erläuterungen (6.9:1 auf Papier).
-- **Teilstrich** (ink-3): Nur nicht-textliche Feinmarken: kleine Teilstriche im Lineal, senkrechte Trenner der Faktenzeile, Scrollbalken. Nie für Text (3.3:1).
-- **Tiefschwarz** (ink-deep): Hover des Ink-Buttons.
-- **Papier** (paper): Seitengrund, Header, Mobilmenü, Abschlussbogen.
-- **Hellgrau** (paper-2): Getönte Sektionen (Produktlinien, FAQ), Grund der Produktbühne in den Säulen.
-- **Produktgrund** (product-ground): Bildgrund freigestellter Produkte im Produktindex.
-- **Linie** (rule): Haarlinien: Header-Unterkante, Hinweiszeile, Punkteliste, Rahmen des Abschlussbogens, Mobilmenü.
-- **Linie kräftig** (rule-strong): Zeilentrenner im Produktindex und in der FAQ.
-- **Night** (night): Fläche des Footers.
-- **Night gedämpft** (night-muted): Fließtext im Footer (7.9:1); Überschriften und Links dort Weiß, Trennlinie Weiß mit 14% Deckkraft.
-
-Der Farbkontrollstreifen zeigt vier Orange-Stufen (Orange, #f19b78, #f7c8b4, #fbe4da) und vier Grau-Stufen (Anthrazit, #6d7174, #abaeb0, #dcdedf) als 22px-Felder. Diese Töne sind Teil der Marke, keine Systemfarben.
+- **Anthrazit** (ink): Überschriften, Fließtext-Grundfarbe, Navigation, Ink-Button, Hover des Hauptbuttons, Skip-Link.
+- **Tiefanthrazit** (ink-deep): nur Hover des Ink-Buttons.
+- **Schiefer** (ink-2): Lead, Sektionseinleitungen, Beschreibungen, Statement-Grundton, FAQ-Antworten, Footer-Text.
+- **Weiß** (white): Seitengrund, Header, Hero-Textfläche, Karten auf Glanzgrau (FAQ, Ablauf-Fuß, Meta-Pillen, Produktfeld der Produktlinie), Untermenü.
+- **Glanzgrau** (glanz): Sektionsgrund im Wechsel, Bildplatzhalter, Nav-Hover, Menüknopf, Plus-Kreise, „Alle Produkte"-Feld, Produktbühne der Säule.
+- **Glanzgrau dunkel** (glanz-2): Linien: Verbindungslinie der Schritte, Trenner im Mobilmenü, Footer-Oberkante und Legal-Trenner.
 
 ### Named Rules
-**The Ein-Vollton Rule.** Orange als große Fläche gibt es genau einmal pro Seite: das Ablauf-Feld. Alle anderen Sektionen sind Papier oder Hellgrau, der Footer Night.
+**The Tinte-für-Text Rule.** Orangefarbener Text und Icons auf Hell sind immer Orange-Tinte. Logo-Orange erscheint nur als Fläche, Rand oder Linie, nie als Schrift auf Weiß.
 
-**The Dunkel-auf-Orange Rule.** Auf Orange steht immer Druckschwarz (on-orange), voll deckend. Weiß auf Orange erreicht nur 3.1:1 und kommt nicht vor.
+**The Ein-Akzent Rule.** Orange ist die einzige Farbe neben den Neutralen. Die Etikettenfarben der Produkte (Lila, Blau) erscheinen nur in Produktfotos, nie als Website-Farbe.
 
-**The Tinte-für-Text Rule.** Orangefarbener Text und Icons auf hellem Grund sind immer Orange-Tinte. Logo-Orange erscheint auf Hell nur als Fläche, Linie oder Marke ohne Text.
-
-**The Etikettenfarben Rule.** Die Produktfarben der Etiketten (z. B. Lila, Blau) gehören zu den Produkten und erscheinen nur in Produktfotos, nie als Website-Farbe.
+**The Weiß-auf-Glanz Rule.** Auf Glanzgrau liegen Karten und Pillen in Weiß; auf Weiß liegen Platzhalter und Hover in Glanzgrau. Beide Flächen tauschen die Rollen, es kommt keine dritte hinzu.
 
 ## Typography
 
 **Display Font:** Archivo (mit system-ui, sans-serif)
 **Body Font:** Archivo (mit system-ui, sans-serif)
-**Label Font:** Archivo Condensed über die Breitenachse (font-stretch 78%)
 
-**Character:** Eine einzige lokal gehostete variable Grotesk (Gewicht 100 bis 900, Breite 62% bis 125%). Normalbreite trägt Überschriften und Text, die schmale Breite die Beschriftungen des Bogens, wie Angaben am Rand eines Andrucks. Gewichte sitzen zwischen den Standardstufen (550, 650, 680, 720).
+**Character:** Eine einzige lokal gehostete variable Grotesk (`assets/fonts/archivo-variable.woff2`, Gewicht 100 bis 900, Breite 62% bis 125%, `font-display: swap`, vorgeladen). Normalbreite überall. Überschriften kräftig (720) und eng, Fließtext groß und ruhig; Gewichte zwischen den Standardstufen.
 
 ### Hierarchy
-- **Display** (720, clamp 2.375rem bis 4rem, 1.02, -0.035em): Nur die H1 im Hero; unter 860px max. 14ch, Silbentrennung nur manuell.
-- **Closing** (700, clamp 2.25rem bis 4.25rem, 1.06): H2 des Abschlussbogens, max. 14ch.
-- **Headline** (700, clamp 2rem bis 3.25rem, 1.06, -0.03em): Sektionsüberschriften H2, max. 20ch.
-- **Title large** (680, clamp 1.625rem bis 2.125rem, 1.2): H3 der zwei Säulen. Produktnamen im Index 700 bei clamp 1.375rem bis 1.875rem, Schritte im Ablauf clamp 1.375rem bis 1.75rem.
-- **Title** (680, 1.375rem, 1.2): Standard-H3. Footer-Spaltentitel 650 bei 1rem.
-- **Figure** (700, clamp 1.625rem bis 2.5rem, 1.05, tabellarisch): Gebindewerte am Lineal.
-- **Lead** (400, clamp 1.125rem bis 1.3125rem, 1.55, Schiefer, max. 46ch): Subtext unter der H1.
-- **Intro** (400, 1.1875rem, 1.55, Schiefer, max. 54ch): Sektionseinleitung unter der H2; auch Text im Abschlussbogen.
-- **Body** (400, 1.0625rem, 1.6): Fließtext; unter 600px 1rem. FAQ-Antworten max. 62ch.
-- **Label** (650, 1rem, 1): Buttons (groß 1.0625rem, Navigation 0.95rem) und Textlinks.
-- **Nav** (550, 0.975rem): Hauptnavigation; mobil 1.0625rem.
-- **Slug** (650, 0.9375rem, Condensed 78%, +0.01em, tabellarisch): Stanzhinweis "Ihr Etikett", Begriffe der Konditionen, Meta der Produktlinien. Die Faktenzeile nutzt dieselbe Breite bei 560 und 1rem.
+- **Display** (720, clamp 2.5rem bis 4.125rem, 0.98, -0.035em): nur die H1 in der Hero-Fläche, `&shy;` für lange Komposita.
+- **Closing** (720, clamp 2.25rem bis 4.25rem, 1, -0.03em): H2 der orangen Abschlussfläche, max. 13ch.
+- **Headline** (720, clamp 2.125rem bis 3.5rem, 1.02, -0.03em): Sektions-H2.
+- **Title** (720, clamp 1.375rem bis 1.75rem, 1.12, -0.02em): H3 in Wegen, Schritten, Produktlinien. Footer-Spaltentitel 1.0625rem.
+- **Statement** (450, clamp 1.75rem bis 2.875rem, 1.26, -0.02em, Schiefer, max. 30ch): der Zahlenabsatz unter dem Hero; Kennzahlen darin 700 in Anthrazit.
+- **Figure** (700, clamp 1.5rem bis 2.25rem, 1.05, -0.03em, tabellarisch): Gebindewerte unter den Kreisen.
+- **Lead** (400, clamp 1.1875rem bis 1.375rem, 1.55, Schiefer, max. 46ch): Subtext unter der H1.
+- **Intro** (400, 1.1875rem, 1.55, Schiefer, max. 54ch): Einleitung unter Sektions-H2, Produktionstext (max. 52ch). Abschlussfläche 1.25rem, max. 40ch.
+- **Body** (400, 1.125rem, 1.55): Grundtext; unter 600px 1.0625rem. Beschreibungen in Schiefer, max. 32 bis 64ch je nach Spalte.
+- **Question** (650, clamp 1.125rem bis 1.25rem): FAQ-Fragen.
+- **Label** (650, 1.0625rem, 1): Buttons (groß 1.125rem, Navigation 1rem) und Textlinks.
+- **Nav** (550, 1rem): Hauptnavigation; mobil 1.25rem.
+- **Meta** (600, 0.9375rem, tabellarisch): Pillen mit Produktanzahl und Gebinden; im Untermenü 0.875rem in Schiefer.
 
 ### Named Rules
-**The Zwei-Breiten Rule.** Condensed (78%) ist nur für kurze, technische Bogenbeschriftungen da: Faktenzeile, Stanzhinweis, Konditionsbegriffe, Produkt-Meta. Nie für Überschriften, Fließtext oder Buttons.
+**The Enge-Überschrift Rule.** Überschriften laufen negativ (H1 -0.035em, H2 -0.03em, H3 -0.02em) mit `text-wrap: balance`; Fließtext bleibt bei normaler Laufweite mit `text-wrap: pretty`.
 
-**The Enge-Überschrift Rule.** Überschriften laufen negativ (H1 -0.035em, H2 -0.03em, H3 -0.015em) mit `text-wrap: balance`; Fließtext bleibt bei normaler Laufweite mit `text-wrap: pretty`.
+**The Tabellarische-Zahl Rule.** Zahlen, die ein Faktum tragen (Gebinde, Produkt-Meta, Untermenü-Angaben), stehen in tabellarischen Ziffern. Mengen und Einheiten bleiben mit geschütztem Leerzeichen zusammen.
 
-**The Tabellarische-Zahl Rule.** Jede Zahl, die ein Faktum trägt (Faktenzeile, Gebinde, Schrittnummer, Produkt-Meta, Telefonnummer), steht in tabellarischen Ziffern.
+**The Keine-Eyebrow Rule.** Über Überschriften steht nichts: keine Kicker, keine Nummern, keine Versal-Labels. Die H2 eröffnet die Sektion selbst.
 
 ## Layout
 
-Zentrierter Container (wrap) mit fluider Seitenzone (gutter). Sektionen halten vertikal den Sektionsabstand; Blöcke unter einem Sektionskopf beginnen mit block-gap (Ablauf, Lineal, Säulen bis 80px, Produktindex 40px bis 64px). Der Hero hat eigenen Oberabstand (48px bis 88px) und schließt mit der Faktenzeile als Bogenrand ab: eine 1px-Anthrazitlinie oben, Einträge durch senkrechte 16px-Striche getrennt.
+Zentrierter Container (wrap) mit fluider Seitenzone (gutter). Sektionen haben oben und unten den Sektionsabstand und wechseln zwischen Weiß und Glanzgrau. Ein Sektionskopf ist gestapelt (H2, darunter Intro), max. 760px breit, mit head-gap zum Inhalt. Rasterlücken liegen bei grid-gap, zweispaltige Splits bei split-gap.
+
+Vollbreite Bildflächen (Hero-Bild, Bildband) sitzen nicht randlos, sondern mit kleinem Einzug (inset) zum Viewport und runden Ecken.
 
 Wiederkehrende Raster:
-- **Hero** 1fr zu 1fr, vertikal zentriert. Rechts der Bogen: Foto 4:3, um 12% nach rechts eingerückt, davor links unten die freigestellte Flasche (27% Breite), rechts unten der Farbkontrollstreifen.
-- **Säulen** bewusst ungleich, 1.45fr zu 1fr: Private Label mit Foto 5:4 und Schnittmarken, Produktlinie als Hellgrau-Bühne 4:5 mit zwei Flaschen.
-- **Ablauf** drei Spalten, getrennt durch 2px gestrichelte Linien.
-- **Gebinde** Kopf 1fr zu 0.8fr mit Bild rechts, darunter das Lineal in vier Feldern (1 / 1 / 0.8 / 0.9).
-- **Produktindex** Zeilen mit Bild 200px, Name, Beschreibung, Meta 160px, Pfeil 32px.
-- **Produktion** 1.15fr zu 1fr, Bild 5:4 mit Schnittmarken links.
-- **FAQ** 0.8fr zu 1.2fr.
-- **Footer** 1.6fr / 1fr / 1fr / 1.2fr.
+- **Hero** Bild vollbreit (clamp 380px bis 600px hoch, 52vh), nur unten gerundet. Darunter die Bühne: weiße Textfläche (max. 720px) überlappt die Bildunterkante um clamp 110px bis 180px; rechts die freigestellte Flasche (clamp 140px bis 210px breit), die mit ihrem unteren Ende 20px bis 40px unter die Bühne ragt.
+- **Statement** ein Absatz, eigener Oberabstand clamp 72px bis 120px, unten 0.
+- **Wege** 1.5fr zu 1fr, unten bündig: Foto 16:11 links, Produktbühne in Glanzgrau (1:1.1) mit zwei Flaschen rechts.
+- **Schritte** drei Spalten auf einer 2px-Linie durch die Kreismitten; darunter der Ablauf-Fuß als weiße Karte mit Text und Button.
+- **Bildband** volle Breite mit inset, clamp 260px bis 480px hoch, Abstand nach oben clamp 48px bis 80px.
+- **Gebinde** vier Spalten 1 / 1.1 / 1.35 / 1.8, unten bündig, Kreise wachsen mit der Spalte.
+- **Produktlinien** 1.3fr zu 1fr: Leitlinie links über zwei Zeilen (Bild 4:3.6), zwei Linien rechts gestapelt (Bild 16:9).
+- **Produktion** 1.1fr zu 1fr, Bild 4:4.4 links, Text rechts vertikal zentriert.
+- **FAQ** 0.8fr zu 1.2fr, H2 links, Fragen rechts mit 12px Abstand.
+- **Abschluss** orange Fläche im wrap, innen 1.2fr zu 1fr, unten bündig.
+- **Footer** 1.6fr / 1fr / 1fr / 1.2fr, darunter die Legal-Zeile.
 
 Responsive Regeln:
-- **bis 1080px:** Produktindex ohne Beschreibung (160px / 1fr / 140px / 28px); Footer zweispaltig.
-- **bis 1000px:** Navigation hinter einem 46px-Menüknopf mit 1px-Anthrazitrahmen; Panel unter dem Header, Links als Liste mit Haarlinien, Button 54px vollbreit.
-- **bis 860px:** Alle Splits einspaltig; Ablauf gestapelt mit gestrichelten Trennern oben; Lineal 2 x 2 (zweite Reihe ohne orange Marke, mit Haarlinie); Abschlussbogen mit 8px Seitenrand.
-- **bis 600px:** Body 1rem, Header 68px, Logo 34px; Hero-Button und Abschluss-Button vollbreit; Faktenzeile gestapelt ohne Trenner; Produktindex 96px Bild, Meta unter dem Namen; Farbfelder 16px.
+- **bis 1000px:** Navigation hinter 48px-Menüknopf (Pille, Glanzgrau); Panel unter dem Header in voller Höhe, Links 1.25rem als Liste mit Glanzgrau-dunkel-Trennern, Button 56px. Seite scrollt bei offenem Menü nicht.
+- **bis 960px:** alle Splits einspaltig; Leitlinie 16:10; Schritte senkrecht (Kreis 64px links, Linie senkrecht durch die Kreise); Gebinde als Liste mit 140px-Kreisspalte; Footer zweispaltig.
+- **bis 600px:** Body 1.0625rem; Hero-Bild 340px ohne Einzug, Radius 24px; Textfläche überlappt 64px, Radius 24px; Flasche 112px unter der Textfläche; Buttons in Hero, Ablauf-Fuß und Abschluss vollbreit; Footer einspaltig.
 
-Der Header ist sticky; Ankersprünge halten 88px Abstand.
+Der Header ist sticky (72px); Ankersprünge halten 88px Abstand.
 
 ### Named Rules
-**The Beschnittzugabe Rule.** Jedes Bild mit Schnittmarken hält rundum den Bleed-Abstand (22px), damit die Marken außerhalb der Bildkante Platz haben. Auch der Abschlussbogen sitzt 22px eingerückt.
+**The Weiß-trägt-Text Rule.** Text liegt nie direkt auf einem Foto. Wo Bild und Text sich treffen, steht der Text auf einer weißen Fläche, die das Bild überlappt.
 
 ## Elevation & Depth
 
-Die Welt ist Papier und liegt flach. Tiefe entsteht durch Flächenwechsel (Papier, Hellgrau, Orange, Night), durch Linien und durch das Überlappen der freigestellten Flasche über der Fotokante. Zwei weiche Schatten existieren, beide funktional.
+Weiche, tiefe Schatten mit großer negativer Ausbreitung, immer in Anthrazit-Transparenz. Schatten gibt es nur dort, wo etwas über einem Bild oder über der Seite schwebt; Karten auf Glanzgrau liegen flach und heben sich nur durch Weiß ab. Der Header ist halbtransparent mit Unschärfe.
 
 ### Shadow Vocabulary
-- **Flaschenschatten** (`filter: drop-shadow(0 22px 22px rgba(46, 49, 51, 0.28))`): nur die freigestellte Produktflasche, die vor dem Bogen steht.
-- **Menü-Overlay** (`box-shadow: 0 24px 32px -24px rgba(46, 49, 51, 0.3)`): nur das aufgeklappte Mobilmenü.
+- **Hero-Fläche** (`box-shadow: 0 30px 60px -36px rgba(46, 49, 51, 0.35)`): weiße Textfläche über der Bildkante.
+- **Hero-Flasche** (`filter: drop-shadow(0 30px 28px rgba(46, 49, 51, 0.32))`): freigestellte Flasche über der Bildkante.
+- **Produktbühne** (`filter: drop-shadow(0 20px 20px rgba(46, 49, 51, 0.2))`, Produktlinie `0 16px 16px`): freigestellte Flaschen auf Glanzgrau oder Weiß.
+- **Etikett-Hinweis** (`box-shadow: 0 10px 24px -14px rgba(46, 49, 51, 0.45)`): Pille „Ihr Etikett".
+- **Untermenü** (`box-shadow: 0 24px 60px -28px rgba(46, 49, 51, 0.45), 0 0 0 1px rgba(46, 49, 51, 0.05)`): Dropdown am Desktop.
+- **Header** (`background: rgba(255, 255, 255, 0.82); backdrop-filter: blur(14px) saturate(160%)`, ohne Unterstützung 0.94 Weiß): sticky, ohne Linie und ohne Schatten.
 
 ### Named Rules
-**The Papier-liegt-flach Rule.** Flächen, Rahmen und Buttons haben keine Schatten. Eine Gruppe bekommt eine Linie oder eine Fläche, nie eine Karte mit Schatten.
+**The Schweben-nur-über-Bild Rule.** Schatten bekommt nur, was über einem Foto oder über dem Inhalt schwebt (Hero-Fläche, Flasche, Etikett-Hinweis, Untermenü). Karten in einer Sektion bleiben schattenlos.
 
 ## Shapes
 
-Alles ist scharfkantig (Radius 0): Buttons, Bilder, Menüknopf, Schrittmarken, Abschlussbogen, Skip-Link. Die einzige Rundung ist die Stanzkontur um die Etikettenfläche der Flasche, eine 2px gestrichelte Orange-Linie mit 10px Radius, weil Etiketten so gestanzt werden. Der Kreis des Passkreuzes (18px, 1px Anthrazit, Fadenkreuz 6px überstehend) ist eine Druckmarke, keine Ecke.
+Alles ist weich gerundet, nichts ist scharfkantig. Radien nach Größe: 12px kleine Vorschaubilder, 16px Untermenü-Einträge, 20px Bilder und Karten, 24px Untermenü-Panel und mobile Hero-Flächen, 32px große Flächen (Hero-Fläche, Hero-Bild unten, Bildband, Produktionsbild, Abschlussfläche), Pille für Buttons, Chips, Menüknopf, Nav-Hover und Skip-Link.
 
-Linien haben feste Rollen: 1px Haarlinie (Linie) gliedert, 1px Anthrazit bildet die Oberkante der Faktenzeile und die Fußlinie im Ablauf, 2px Anthrazit führt Produktindex und FAQ, 2px gestrichelt trennt Schritte (Druckschwarz 45%) und markiert die Stanzkontur (Orange). Schnittmarken sind 14px lange 1px-Striche, 22px außerhalb jeder Bildecke.
+Der Kreis ist das Tropfen-Motiv: Schrittnummern, Gebinde-Kreise und FAQ-Plus sind Kreise. Tropfen haben einen 2px-Rand in Logo-Orange und füllen sich von unten mit Orange (`clip-path: inset(...)`).
+
+Die einzige Linie mit Bedeutung ist die Stanzlinie: 2px gestrichelt in Logo-Orange, 14px Radius, um die Etikettenfläche der Flasche. Sonstige Linien sind 1px bis 2px Glanzgrau dunkel und nur Trenner.
 
 ### Named Rules
-**The Scharfe-Kante Rule.** Radius 0 für jede Fläche. Die 10px-Rundung gehört ausschließlich der Stanzkontur.
+**The Weich-nach-Größe Rule.** Je größer die Fläche, desto größer der Radius (12 / 16 / 20 / 24 / 32px). Bedienelemente sind immer Pillen.
+
+**The Tropfen-füllt-sich Rule.** Ein Kreis mit orangem Rand zeigt eine Menge oder einen Fortschritt durch seinen Füllstand. Er ist nie nur Dekoration.
 
 ## Components
 
 ### Buttons
-Rechteckig, satt, ohne Rundung.
-- **Shape:** Radius 0, Mindesthöhe 48px (groß 58px), Polster 0 22px (groß 0 28px), Pfeil 18px mit 12px Abstand.
-- **Primary:** Logo-Orange mit Druckschwarz. Hover wird der Button Anthrazit mit weißer Schrift.
-- **Ink:** Anthrazit mit Weiß, auf dem Orangefeld des Ablaufs und im weißen Abschlussbogen. Hover Tiefschwarz.
-- **Nav-Variante:** Primary bei 44px Höhe, 0 20px, 0.95rem; im Mobilmenü 54px.
-- **Hover / Focus:** Farbwechsel 0.2s, Pfeil rückt 4px nach rechts (0.25s), Active drückt 1px nach unten. Fokus als 2px-Ring in Orange-Tinte mit 3px Abstand.
+Satt, rund, mit Pfeil.
+- **Shape:** Pille, Mindesthöhe 48px (groß 60px, Navigation 44px, mobil im Menü 56px), Polster 0 24px (groß 0 30px), Pfeil 18px mit 12px Abstand.
+- **Primary:** Logo-Orange mit Auf-Orange-Schrift. Hover: Anthrazit mit Weiß.
+- **Ink:** Anthrazit mit Weiß, nur auf der orangen Abschlussfläche. Hover: Tiefanthrazit.
+- **Hover / Focus / Active:** Farbwechsel 0.25s, Pfeil 4px nach rechts, Druck `scale(0.98)`; Fokusring 2px Orange-Tinte, 3px Abstand.
 
 ### Text Links
-- **Style:** Anthrazit, 650, Unterstrich 2px in Logo-Orange mit 6px Abstand, Pfeil 18px in Orange-Tinte. Hover: Text Orange-Tinte, Pfeil 4px nach rechts.
-- **Fließtextlinks:** Orange-Tinte mit 1px-Unterstrich (0.22em Abstand). In der Hinweiszeile Anthrazit 600 mit orangem 2px-Unterstrich.
+Label-Schrift in Anthrazit mit 20px-Pfeil in Orange-Tinte und 10px Abstand; Hover färbt den Text in Orange-Tinte und schiebt den Pfeil 4px. Ist die ganze Karte ein Link, reagiert der Textlink auf Hover der Karte. Links im Fließtext: Orange-Tinte, 1px unterstrichen, 0.22em Abstand; Hervorhebungslinks (Lohnabfüllungs-Hinweis) in Anthrazit 600 mit 2px-Unterstreichung in Logo-Orange.
+
+### Chips (Meta-Pille)
+- **Style:** Weiße Pille auf Glanzgrau, 6px 14px, Meta-Schrift, tabellarisch. Trägt Produktanzahl und Gebindebereich einer Produktlinie.
+
+### Cards / Containers
+- **Bildkarten (Wege, Produktlinien):** Die ganze Karte ist ein Link ohne Rahmen und ohne Hintergrund. Bild mit 20px Radius, darunter H3, Beschreibung in Schiefer, Textlink oder Meta-Pille. Hover: Bild zoomt auf 1.04 (0.8s); bei Produktlinien färbt sich der Titel in Orange-Tinte; freigestellte Flaschen heben sich 6px.
+- **Produktbühne:** Feld in Glanzgrau (auf Glanzgrau-Sektion in Weiß) mit freigestellten Flaschen, `object-fit: contain`, unten bündig, zweite Flasche 86% hoch.
+- **Weiße Karte auf Glanzgrau:** Ablauf-Fuß und FAQ-Einträge, 20px Radius, ohne Schatten, ohne Rahmen.
 
 ### Navigation
-- **Desktop:** Weißer Header 76px mit 1px-Haarlinie unten, Logo 40px, fünf Links (Nav-Stil, 30px Abstand), dann Primary-Button. Hover zieht einen 2px-Unterstrich in Logo-Orange von links auf (0.25s).
-- **Mobil:** Siehe Layout; Escape und Linkklick schließen das Panel.
+- **Desktop:** Logo 38px links, Links in Nav-Schrift mit 6px Abstand als Pillen (8px 14px), Hover Glanzgrau; rechts davon mit 32px Abstand der Primary-Button (44px).
+- **Untermenü Produkte:** Neben dem Link sitzt ein 30px-Kreisknopf mit Pfeil nach unten. Am Desktop (ab 1001px) öffnet bei Hover, Fokus oder Klick ein weißes Panel (440px, 24px Radius, 10px Polster, Untermenü-Schatten) 14px unter dem Link, zentriert; es blendet ein und steigt 8px auf (0.25s / 0.35s). Einträge: 76 × 56px Vorschaubild (12px Radius, Glanzgrau, Foto oder freigestellte Flasche), Name 650 und Meta 0.875rem in Schiefer, 16px Radius. Am Ende „Alle Produkte" als Glanzgrau-Feld mit Pfeil in Orange-Tinte. Escape und Klick außerhalb schließen.
+- **Mobil (bis 1000px):** 48px-Menüknopf (Liste / X). Panel weiß in voller Höhe, Links als Liste. Das Untermenü wird zum Akkordeon: 44px-Kreisknopf in Glanzgrau rechts neben „Produkte", Einträge darunter ohne Trenner.
 
-### Schnittmarken-Rahmen (Signatur)
-Bilder im Bogen (Hero, Private-Label-Säule, Produktion) und der Abschlussbogen bekommen vier Schnittmarken in Anthrazit außerhalb der Ecken. Ein Passkreuz sitzt mittig über der Oberkante, nur beim Hero-Foto und beim Abschlussbogen.
+### Hero mit Etikettenfläche (Signatur)
+Vollbreites Makrobild (Wasserperlen), unten mit 32px gerundet. Die weiße Hero-Fläche überlappt die Unterkante links mit H1, Lead, großem Primary-Button und Textlink. Rechts steht die freigestellte Produktflasche über der Bildkante. Auf ihrer Etikettenfläche (41% bis 97% der Höhe) liegt die Stanzlinie; links daneben die weiße Pille „Ihr Etikett" mit einem 34px-Strich in Logo-Orange, der in die Stanzlinie läuft. Laden: Bild setzt sich aus Unschärfe (1.6s), Fläche und Flasche steigen auf (0.9s / 1s), Stanzlinie und Hinweis erscheinen ab 1s bzw. 1.25s.
 
-### Stanzkontur mit Etikett-Hinweis (Signatur)
-Über der Etikettenfläche der freigestellten Flasche liegt die gestrichelte Orange-Kontur (2px, 10px Radius). Rechts daneben führt ein 40px langer orangefarbener Strich zum Hinweis "Ihr Etikett" im Slug-Stil auf Papiergrund.
+### Statement
+Ein großer Absatz in Statement-Schrift, Schiefer, Kennzahlen in Anthrazit 700. Ersetzt Zahlenkacheln.
 
-### Farbkontrollstreifen
-Acht 22px-Quadrate ohne Abstand rechts unter dem Bogen, vier Orange- und vier Graustufen. Rein dekorativ (aria-hidden).
+### Schritte mit Tropfen (Signatur)
+Drei Schritte auf einer 2px-Linie in Glanzgrau dunkel. Jeder Schritt hat einen 64px-Tropfen mit 2px-Rand in Logo-Orange und der Nummer innen (700, 1.375rem). Der Füllstand steigt mit dem Schritt (20%, 55%, 100%); im voll gefüllten Tropfen steht die Nummer in Auf-Orange.
 
-### Faktenzeile
-Vier Fakten als Bogenrand unter dem Hero, 1px Anthrazit oben, Slug-Breite bei 560 und 1rem, getrennt durch 16px hohe Striche in Teilstrich-Grau.
+### Gebinde als wachsende Kreise (Signatur)
+Vier Kreise mit 2px-Rand in Logo-Orange, Größe nach Gebinde (16%, 34%, 62%, 100% der Spaltenbreite, mind. 34px), darunter Wert in Figure-Schrift und Gebindeart in Schiefer. Beim Hineinscrollen (35% sichtbar) füllen sie sich nacheinander von unten (1.1s, je +0.25s). Ohne JavaScript oder bei reduzierter Bewegung sind sie voll.
 
-### Ablauf-Feld
-Die einzige Orangefläche. Drei Schritte mit quadratischer Nummernmarke (34px, 1.5px Druckschwarz-Rahmen, Ziffer 700 tabellarisch), getrennt durch 2px gestrichelte Linien. Darunter ein Fuß mit 1px-Linie in Druckschwarz, Konditionen als Definitionsliste (Begriff im Slug-Stil, Wert 600 bei 1.125rem) und Ink-Button.
-
-### Gebinde-Lineal (Signatur)
-2px-Anthrazitlinie oben, darunter Teilstriche: große alle 80px (22px hoch, Anthrazit), kleine alle 16px (10px hoch, Teilstrich-Grau). Jedes Gebindefeld beginnt mit einem 2px breiten, 34px hohen orangen Strich, darunter der Wert im Figure-Stil und die Bezeichnung in Schiefer.
-
-### Produktindex
-Liste mit 2px-Anthrazit-Oberkante und kräftigen Haarlinien zwischen den Zeilen. Jede Zeile ist ein Link: Bild 3:2 (Fotos cover, freigestellte Produkte contain auf Produktgrund), Name, Beschreibung, Meta im Slug-Stil, Pfeil in Orange-Tinte. Hover: Name Orange-Tinte, Pfeil 6px nach rechts, Bild zoomt auf 1.05 (0.6s).
-
-### Punkteliste
-Raster 36px Icon / Text mit Haarlinie oben je Zeile: Icon 26px in Orange-Tinte, Titel 680 bei 1.125rem, Erläuterung in Schiefer.
+### Bildband
+Ein einzelnes Makrobild in voller Breite mit inset und 32px Radius, ohne Text, dekorativ (`aria-hidden`). Setzt eine Pause zwischen zwei Sektionen.
 
 ### FAQ
-Native `details` unter 2px-Anthrazit-Oberkante, Trenner kräftige Haarlinie. Frage 650 bei clamp 1.125rem bis 1.3125rem, 24px Polster, Plus 24px in Orange-Tinte, dreht offen um 45 Grad (0.3s). Antwort in Schiefer, max. 62ch. Daneben die Telefonnummer groß (700, 1.375rem, tabellarisch).
+Native `details` als weiße Karten (20px) auf Glanzgrau. Frage in Question-Schrift, rechts ein 40px-Plus-Kreis in Glanzgrau. Hover und geöffnet: Kreis in Logo-Orange, geöffnet um 45° gedreht (0.3s). Antwort in Schiefer, max. 64ch.
 
-### Abschlussbogen
-Der letzte Bogen: weißes Blatt mit 1px-Haarlinienrahmen, Schnittmarken und Passkreuz, 22px eingerückt. Innen H2 im Closing-Stil links, rechts Intro-Text, Ink-Button und Kontaktzeilen (600, Icon in Orange-Tinte).
+### Abschlussfläche
+Orange Fläche (32px Radius) im Container: links Closing-H2, rechts Text, Ink-Button und Telefon und E-Mail in Auf-Orange 650.
 
 ### Footer
-Night-Fläche: Spalten mit weißem Logo (42px), Adresse und Linklisten, darunter die Rechtszeile (0.9rem) hinter Weiß mit 14% Deckkraft. Links Weiß ohne Unterstrich, Hover Logo-Orange; Fokusring dort Logo-Orange.
+Hell und ruhig: Weiß, 1px-Oberkante in Glanzgrau dunkel, Text in Schiefer, Links in Anthrazit ohne Unterstreichung, Hover Orange-Tinte. Logo dunkel 38px mit Adresse, drei Linkspalten, Legal-Zeile 0.9375rem.
 
 ### Motion
-Eine Kurve für alles: `cubic-bezier(0.16, 1, 0.3, 1)`. Beim Laden zeichnet sich der Hero-Bogen einmal ein: Foto setzt sich (1.2s), Flasche steigt auf (1s), Schnittmarken ziehen sich auf (0.7s ab 0.35s), Passkreuz und Farbfelder blenden gestaffelt ein, die Stanzkontur zieht sich zusammen (0.8s ab 0.85s), der Hinweis gleitet ein (ab 1.1s). Sonst nur Hover zwischen 0.15s und 0.6s. Bei `prefers-reduced-motion: reduce` entfallen Ladesequenz und weiches Scrollen.
+Eine Kurve für alles: `cubic-bezier(0.16, 1, 0.3, 1)`. Hover 0.2s bis 0.25s (Farbe, Pfeil), Bildzoom 0.8s, Untermenü 0.25s / 0.35s. Ladeanimationen nur im Hero, Scroll-Animation nur bei den Gebinde-Kreisen. Alles Bewegte steht unter `prefers-reduced-motion: no-preference`.
 
 ## Do's and Don'ts
 
 ### Do:
-- **Do** setze Primärbuttons in Logo-Orange mit Druckschwarz (on-orange) und wechsle auf Orange- und Abschlussflächen zum Ink-Button.
-- **Do** halte jede Ecke scharf (Radius 0); 10px nur für die Stanzkontur.
-- **Do** rahme Bogenbilder mit Schnittmarken und 22px Bleed; setze höchstens ein Passkreuz pro Bogen.
-- **Do** nutze Condensed (78%) nur für kurze Bogenbeschriftungen und tabellarische Ziffern für jede Faktenzahl.
-- **Do** setze orangen Text und orange Icons auf Hell in Orange-Tinte (#b84a24).
-- **Do** gliedere mit Haarlinien, 2px-Oberkanten und gestrichelten Trennern statt mit Karten.
+- **Do** Sektionen zwischen Weiß und Glanzgrau wechseln lassen und Karten jeweils in der anderen Fläche setzen.
+- **Do** Logo-Orange als Fläche, Rand, Tropfen und Stanzlinie einsetzen und orange Schrift immer in Orange-Tinte setzen.
+- **Do** Buttons als Pillen mit Pfeil bauen: Primary orange, auf oranger Fläche Ink.
+- **Do** Radien nach Größe wählen: 20px Bilder und Karten, 32px große Flächen und vollbreite Bilder.
+- **Do** Mengen, Schritte und Fortschritte als Kreise mit orangem Rand zeigen, die sich von unten füllen.
+- **Do** Makrobilder groß und ohne Overlay zeigen; Text auf weißen Flächen, die das Bild überlappen.
+- **Do** die freigestellte Flasche mit gestrichelter Etikettenfläche nutzen, wo es um die eigene Marke geht.
+- **Do** Sektionsköpfe gestapelt setzen: H2, darunter Intro in Schiefer.
 
 ### Don't:
-- **Don't** setze Eyebrows, Kicker oder nummerierte Überzeilen über Überschriften (vom Nutzer als KI-Template-Merkmal verworfen).
-- **Don't** nutze Farbverläufe als Fläche oder Glasflächen mit Unschärfe.
-- **Don't** setze weiße Schrift auf Logo-Orange (3.1:1) oder Text in Logo-Orange auf Weiß.
-- **Don't** füge eine zweite Orangefläche neben dem Ablauf hinzu.
-- **Don't** runde Buttons, Bilder oder Schrittmarken ab; keine Kreismarken außer dem Passkreuz.
-- **Don't** füge eine Serifenschrift oder zweite Familie hinzu.
-- **Don't** übernimm Etikettenfarben einzelner Produkte als Website-Farben.
+- **Don't** Eyebrows, Kicker, Nummern oder Versal-Labels über Überschriften setzen.
+- **Don't** Verlaufs-Overlays auf Fotos legen oder Text direkt auf Bilder setzen.
+- **Don't** Tabellen als Gestaltungsmittel oder Datenblatt-Optik verwenden.
+- **Don't** dunkle Sektionen oder eine Hochglanz-Detailing-Optik einführen.
+- **Don't** Logo-Orange als Schriftfarbe auf Weiß oder Glanzgrau verwenden.
+- **Don't** scharfe Ecken oder eckige Buttons setzen.
+- **Don't** Karten in einer Sektion mit Schatten versehen.
+- **Don't** Etikettenfarben der Produkte (Lila, Blau) als Website-Farben übernehmen.
+- **Don't** Elemente aus der archivierten Druckbogen-Variante übernehmen (Schnittmarken, Passkreuz, Farbkontrollstreifen, Radius 0).

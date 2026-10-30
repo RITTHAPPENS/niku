@@ -22,7 +22,7 @@ Lizenzierte Platzhalter aus dem Magnific-Premium-Konto, bis echte Fotos aus der 
 
 | Bereich | Datei |
 |---|---|
-| Hero | `hero-kanister.jpg` |
+| Hero (Platzhalter) | `abperl-hero.jpg` |
 | Private Label | `private-label-flaschen.jpg` |
 | Fahrzeugpflege Professionell | `felgen-detailing.jpg` |
 | Produktion | `qualitaetskontrolle.jpg` |
