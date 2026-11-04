@@ -323,3 +323,9 @@ img.focus-right { object-position: 76% 50%; }
   .mega-intro { display: none; }
   .mega { padding: 0; }
 }
+
+/* Logo auf Desktop größer, Header bleibt unter 80 px */
+@media (min-width: 1001px) {
+  .header-inner { height: 80px; }
+  .brand img { height: 52px; }
+}
