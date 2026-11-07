@@ -27,3 +27,42 @@
   });
   document.addEventListener('click', function (e) { if (!item.contains(e.target)) set(false); });
 })();
+
+// Anfrageformular: Anfrageart aus URL, Adresse bei Händleranfrage, Prüfung, Erfolgsmeldung (Entwurf ohne Versand)
+(function () {
+  var form = document.getElementById('anfrage-form');
+  if (!form) return;
+  var params = new URLSearchParams(location.search);
+  var typ = params.get('typ');
+  var produkt = params.get('produkt');
+  if (typ) { var r = form.querySelector('input[name="anfrageart"][value="' + typ + '"]'); if (r) r.checked = true; }
+  if (produkt) { form.produkt.value = produkt.replace(/-/g, ' ').replace(/^./, function (c) { return c.toUpperCase(); }); }
+  var addr = form.querySelector('.addr');
+  function syncAddr() {
+    var isH = (form.querySelector('input[name="anfrageart"]:checked') || {}).value === 'haendler';
+    addr.classList.toggle('is-shown', isH);
+    form.adresse.required = isH;
+  }
+  form.addEventListener('change', syncAddr); syncAddr();
+  function setErr(field, on) {
+    var wrap = field.closest('.field');
+    wrap.classList.toggle('is-invalid', on);
+    var e = wrap.querySelector('.field-error'); if (e) e.hidden = !on;
+    if (field.setAttribute) field.setAttribute('aria-invalid', on ? 'true' : 'false');
+  }
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var first = null;
+    var radio = form.querySelector('input[name="anfrageart"]:checked');
+    document.getElementById('err-anfrageart').hidden = !!radio;
+    if (!radio) first = form.querySelector('input[name="anfrageart"]');
+    ['firma', 'name', 'email', 'adresse', 'datenschutz'].forEach(function (n) {
+      var f = form.elements[n]; if (!f) return;
+      var bad = f.required && (f.type === 'checkbox' ? !f.checked : !f.value.trim() || (f.type === 'email' && !f.checkValidity()));
+      setErr(f, bad); if (bad && !first) first = f;
+    });
+    if (first) { first.focus(); return; }
+    form.querySelector('.form-success').hidden = false;
+    form.querySelector('.form-actions').hidden = true;
+  });
+})();

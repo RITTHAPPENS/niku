@@ -308,6 +308,10 @@ Ab der Seite Private Label (`private-label/index.html`) kommen drei Bausteine da
 - **Sortiment** (`.range`): Split 1fr zu 1.1fr auf Glanzgrau, links ein Bild oder ein freigestelltes Render auf weißer 32px-Fläche (sticky), rechts H2, Intro und weiße Karten (20px Radius) mit Textlink.
 - **Leistungen** (`.service`): vollbreites Bild mit inset, rechts überlappt eine weiße Fläche (max. 860px) mit H2, Intro und Häkchenliste; Häkchen als orange Kreise mit Icon in Auf-Orange.
 - **Leistungskette** (`.chain`, Lohnabfüllung): fünf Knoten im Stil der Ablauf-Tropfen (weiß, 2px Rand in Logo-Orange, Phosphor-Icon in Orange-Schrift), verbunden durch eine durchgehende 2px-Linie in Orange mit 45 % Deckkraft. Statisch, keine Scroll-Animation: die Gebinde-Kreise bleiben der einzige animierte Moment pro Seite. Bis 960px vertikal.
+- **Kategorieseiten** (`.prods`, `.prod`): Hero ohne Flasche (`.hero--plain`), darunter Sprung-Pillen zu jedem Produkt (auf dem Handy horizontal scrollbar), dann Produktkarten zweispaltig: weiße Karte, 1px Glanzgrau-dunkel, 32px Radius, Bild oben 16:10, H2 im exakten Suchbegriff, Text, Gebinde-Chips in Glanzgrau, Button „Datenblatt (PDF)“ als Outline-Pille und Textlink „Preis anfragen“. Jede Karte hat eine Anker-ID, `:target` bekommt einen orangen Rand.
+- **Seitenkopf ohne Bild** (`.page-head`, Anfrage und Rechtliches): Glanzgrau-Fläche, unten 32px gerundet, H1 und Lead.
+- **Formular** (`.inquiry`): Label über dem Feld, Felder 14px Radius mit 1px Rahmen, Fokus orange mit 3px Halo, Fehler in Rot mit Icon unter dem Feld, Anfrageart als Pillen-Radios (gewählt = Logo-Orange). Adresse erscheint nur bei Händleranfrage. Erfolgsmeldung grün getönt.
+- **Bildplatzhalter** (`.ph`): gestrichelter Rahmen auf Glanzgrau, Bild-Icon in Orange-Schrift, „Bild fehlt“ und eine konkrete Beschreibung, welches Foto hineingehört. Nur im Entwurf.
 Unterseiten liegen in eigenen Ordnern und verlinken relativ (`../`). Die aktive Seite trägt `aria-current="page"` und bekommt im Menü die Glanzgrau-Pille.
 
 ### Named Rules
