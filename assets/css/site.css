@@ -564,3 +564,5 @@ figure.prod-img { border-radius: 0; border-width: 0 0 2px; min-height: 0; }
   .pills--jump::-webkit-scrollbar { display: none; }
   .pills--jump li { flex: none; scroll-snap-align: start; }
 }
+.page-head h1, .hero-panel h1 { hyphens: auto; overflow-wrap: break-word; }
+.prod-actions .todo { font-size: 0.8125rem; font-weight: 600; }
