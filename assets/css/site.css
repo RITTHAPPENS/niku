@@ -391,3 +391,24 @@ img.focus-right { object-position: 76% 50%; }
   .service-panel { margin-top: -64px; border-radius: 24px; padding: 28px 22px; }
   .checks { grid-template-columns: 1fr; }
 }
+
+/* Leistungskette: fünf Knoten auf einer durchgehenden Linie, statisch */
+.chain-section { padding-top: clamp(96px, 11vw, 150px); }
+.chain { --node: 64px; position: relative; list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: clamp(16px, 2vw, 32px); }
+.chain li:not(:last-child)::after { content: ""; position: absolute; left: var(--node); right: calc(-1 * clamp(16px, 2vw, 32px)); top: calc(var(--node) / 2 - 1px); height: 2px; border-radius: 2px; background: var(--orange); opacity: 0.45; }
+.chain li { position: relative; }
+.chain .node { position: relative; display: grid; place-items: center; width: var(--node); height: var(--node); border-radius: 50%; background: var(--white); border: 2px solid var(--orange); color: var(--orange-ink); }
+.chain .node .icon { width: 28px; height: 28px; }
+.chain h3 { margin-top: 24px; font-size: 1.25rem; }
+.chain p { margin-top: 8px; color: var(--ink-2); max-width: 26ch; }
+.plant-copy .text-link { margin-top: 24px; }
+@media (max-width: 960px) {
+  .chain { grid-template-columns: 1fr; gap: 0; }
+  .chain li:not(:last-child)::after { left: calc(var(--node) / 2 - 1px); right: auto; top: var(--node); bottom: 0; width: 2px; height: auto; }
+  .chain li { display: grid; grid-template-columns: var(--node) 1fr; column-gap: 22px; padding-bottom: 32px; }
+  .chain li:last-child { padding-bottom: 0; }
+  .chain .node { grid-row: span 2; }
+  .chain h3 { margin-top: 14px; }
+  .chain p { max-width: 46ch; }
+}
+@media (max-width: 600px) { .chain { --node: 52px; } .chain .node .icon { width: 24px; height: 24px; } }

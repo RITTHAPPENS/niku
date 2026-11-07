@@ -307,6 +307,7 @@ Ab der Seite Private Label (`private-label/index.html`) kommen drei Bausteine da
 - **Eckdaten** (`.facts`): vier Spalten, durch 1px Glanzgrau-dunkel getrennt; Wert in 720, clamp 2rem bis 3.125rem, darunter ein 40px-Strich in Logo-Orange, Label 650 und Erklärung in Schiefer. Labels stehen per Subgrid auf einer Linie. Bis 960px zweispaltig, bis 600px gestapelt mit Trennern oben.
 - **Sortiment** (`.range`): Split 1fr zu 1.1fr auf Glanzgrau, links ein Bild oder ein freigestelltes Render auf weißer 32px-Fläche (sticky), rechts H2, Intro und weiße Karten (20px Radius) mit Textlink.
 - **Leistungen** (`.service`): vollbreites Bild mit inset, rechts überlappt eine weiße Fläche (max. 860px) mit H2, Intro und Häkchenliste; Häkchen als orange Kreise mit Icon in Auf-Orange.
+- **Leistungskette** (`.chain`, Lohnabfüllung): fünf Knoten im Stil der Ablauf-Tropfen (weiß, 2px Rand in Logo-Orange, Phosphor-Icon in Orange-Schrift), verbunden durch eine durchgehende 2px-Linie in Orange mit 45 % Deckkraft. Statisch, keine Scroll-Animation: die Gebinde-Kreise bleiben der einzige animierte Moment pro Seite. Bis 960px vertikal.
 Unterseiten liegen in eigenen Ordnern und verlinken relativ (`../`). Die aktive Seite trägt `aria-current="page"` und bekommt im Menü die Glanzgrau-Pille.
 
 ### Named Rules
