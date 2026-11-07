@@ -412,3 +412,28 @@ img.focus-right { object-position: 76% 50%; }
   .chain p { max-width: 46ch; }
 }
 @media (max-width: 600px) { .chain { --node: 52px; } .chain .node .icon { width: 24px; height: 24px; } }
+
+/* Produktkatalog: eine Zeile je Linie, Produktnamen als Pillen-Links */
+.catalog-section { padding-top: clamp(96px, 11vw, 150px); }
+.catalog-intro { font-size: 1.1875rem; color: var(--ink-2); max-width: 56ch; }
+.catalog { display: grid; gap: clamp(56px, 7vw, 96px); }
+.cat { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: clamp(32px, 5vw, 80px); align-items: center; scroll-margin-top: 100px; }
+.cat-img { display: block; aspect-ratio: 4 / 3; border-radius: var(--r-lg); overflow: hidden; background: var(--glanz); }
+.cat-img img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.6s var(--ease); }
+.cat-img--product { background: #fff; border: 1px solid var(--glanz-2); }
+.cat-img--product img { object-fit: contain; }
+.cat:hover .cat-img img { transform: scale(1.03); }
+.cat h2 a { color: inherit; text-decoration: none; }
+.cat h2 a:hover { color: var(--orange-ink); }
+.cat-copy > p:not(.cat-meta) { margin-top: 16px; color: var(--ink-2); max-width: 56ch; }
+.pills { list-style: none; margin: 24px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.pills a { display: inline-flex; align-items: center; min-height: 40px; padding: 8px 16px; border-radius: 999px; background: var(--glanz); color: var(--ink); font-weight: 550; font-size: 0.9375rem; text-decoration: none; transition: background-color 0.2s var(--ease), color 0.2s var(--ease); }
+.pills a:hover { background: var(--orange); color: var(--on-orange); }
+.pills a:focus-visible { outline: 2px solid var(--orange-ink); outline-offset: 2px; }
+.cat-meta { margin-top: 20px; font-weight: 650; font-size: 0.9375rem; color: var(--ink); }
+.cat .text-link { margin-top: 12px; }
+@media (max-width: 900px) {
+  .cat { grid-template-columns: 1fr; gap: 24px; }
+  .cat-img { aspect-ratio: 16 / 10; }
+}
+@media (prefers-reduced-motion: reduce) { .cat-img img { transition: none; } .cat:hover .cat-img img { transform: none; } }
