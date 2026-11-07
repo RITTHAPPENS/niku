@@ -302,6 +302,13 @@ Responsive Regeln:
 
 Der Header ist sticky (72px); Ankersprünge halten 88px Abstand.
 
+### Unterseiten-Bausteine
+Ab der Seite Private Label (`private-label/index.html`) kommen drei Bausteine dazu, alle im selben System:
+- **Eckdaten** (`.facts`): vier Spalten, durch 1px Glanzgrau-dunkel getrennt; Wert in 720, clamp 2rem bis 3.125rem, darunter ein 40px-Strich in Logo-Orange, Label 650 und Erklärung in Schiefer. Labels stehen per Subgrid auf einer Linie. Bis 960px zweispaltig, bis 600px gestapelt mit Trennern oben.
+- **Sortiment** (`.range`): Split 1fr zu 1.1fr auf Glanzgrau, links ein Bild oder ein freigestelltes Render auf weißer 32px-Fläche (sticky), rechts H2, Intro und weiße Karten (20px Radius) mit Textlink.
+- **Leistungen** (`.service`): vollbreites Bild mit inset, rechts überlappt eine weiße Fläche (max. 860px) mit H2, Intro und Häkchenliste; Häkchen als orange Kreise mit Icon in Auf-Orange.
+Unterseiten liegen in eigenen Ordnern und verlinken relativ (`../`). Die aktive Seite trägt `aria-current="page"` und bekommt im Menü die Glanzgrau-Pille.
+
 ### Named Rules
 **The Weiß-trägt-Text Rule.** Text liegt nie direkt auf einem Foto. Wo Bild und Text sich treffen, steht der Text auf einer weißen Fläche, die das Bild überlappt.
 

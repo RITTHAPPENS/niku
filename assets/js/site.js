@@ -1,14 +1,14 @@
-// Fills the container drops once they scroll into view.
+// Fills drop circles once their list scrolls into view.
 (function () {
-  var list = document.querySelector('[data-fill]');
-  if (!list || !('IntersectionObserver' in window)) return;
+  var lists = document.querySelectorAll('[data-fill]');
+  if (!lists.length || !('IntersectionObserver' in window)) return;
   document.documentElement.classList.add('js-fill');
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (entry) {
-      if (entry.isIntersecting) { list.classList.add('is-filled'); io.disconnect(); }
+      if (entry.isIntersecting) { entry.target.classList.add('is-filled'); io.unobserve(entry.target); }
     });
   }, { threshold: 0.35 });
-  io.observe(list);
+  lists.forEach(function (list) { io.observe(list); });
 })();
 
 // Product submenu: button toggles, Escape and outside click close.
