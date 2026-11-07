@@ -17,7 +17,7 @@ OWN-WORLD: Abperleffekt unverändert: Weiß und Glanzgrau, Anthrazit, Logo-Orang
 
 STORY: Der Besucher sieht, dass NiKu eine eigene Produktlinie im Großgebinde hat, findet seine Linie und das gesuchte Produkt, erfährt, wie bestellt wird (Preisliste, E-Mail, Datenblätter), und fragt an oder wechselt zu Private Label.
 
-FIRST VIEWPORT: Header 80 px mit aktivem Menüpunkt Produkte. Vollbreites Bild Felgenreinigung, unten gerundet. Weiße Fläche überlappt links mit H1, Lead, Button "Anfrage stellen" und Textlink zu den Produktlinien. Rechts die freigestellte Flasche mit Stanzlinie und "Ihr Etikett".
+FIRST VIEWPORT: Header 80 px mit aktivem Menüpunkt Produkte. Vollbreites Bild abgefüllter Kanister (Großgebinde, Felgenreinigung steht bereits in der Katalogzeile), unten gerundet. Weiße Fläche überlappt links mit H1, Lead, Button "Anfrage stellen" und Textlink zu den Produktlinien. Rechts die freigestellte Flasche mit Stanzlinie und "Ihr Etikett".
 
 FORM: Katalog-Zeilen: pro Linie Bild links, rechts H2, Text, Produktnamen als Pillen-Links, Gebinde und Link zur Kategorie. Platz 1 der eigenen Liste, vom Builder gewählt. Seed-Key 5d71e0c3 (degradiert, ohne Challenger). Signatur: Produktnamen als Pillen-Links; Build path: code.
 
